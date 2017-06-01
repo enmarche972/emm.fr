@@ -1,4 +1,7 @@
 {
   "name": "emm.fr",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
 }
