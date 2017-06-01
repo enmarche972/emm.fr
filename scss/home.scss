@@ -1,0 +1,124 @@
+@import "settings";
+@import "tools";
+
+.home {
+  width: 1200px;
+  height: 730px;
+  margin: 0 auto;
+  position: relative;
+
+  &__map {
+    opacity: 0;
+    width: 600px;
+    height: 600px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include center-block-horizontal;
+    @include transition(opacity, 0.7s, ease);
+
+    &--gray {
+      background-image: url('../images/map--gray.png');
+    }
+
+    &--color {
+      background-image: url('../images/map--color.png');
+    }
+
+    &--visible {
+      opacity: 1;
+    }
+  }
+
+  &__controls {
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    text-align: center;
+
+    opacity: 1;
+
+    @include transition(all, 0.4s, ease-in);
+
+    &--hidden {
+      opacity: 0;
+      top: 200px
+    }
+  }
+
+  &__heading {
+    font-size: 140px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0;
+  }
+
+  &__subheading {
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0;
+  }
+
+  &__actions {
+    width: 470px;
+    height: 55px;
+    margin: 32px auto 155px;
+  }
+
+  &__action {
+    float: left;
+    display: inline-block;
+    width: 230px;
+    height: 55px;
+    line-height: 55px;
+
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+
+    color: $cl-black;
+
+    cursor: pointer;
+
+    border: 1px solid $cl-black;
+
+    @include transition(all, 0.45s, ease);
+
+    &:hover {
+      color: $cl-white;
+      background: lighten($cl-pink, 5%);
+      border-color: lighten($cl-pink, 5%);
+    }
+
+    &--pink {
+      border: none;
+      color: $cl-white;
+      background: $cl-pink;
+      margin-left: 10px;
+    }
+
+    &--close {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+
+      @include transition(opacity, 2s, ease-out);
+    }
+
+    &--hidden {
+      opacity: 0;
+    }
+  }
+
+  &__down {
+    display: block;
+    width: 25px;
+    height: 31px;
+    margin: 0 auto;
+    background-image: url('../images/arrow.png');
+  }
+}

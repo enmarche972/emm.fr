@@ -14,7 +14,7 @@
             <a class="header__link" href="#home">Home</a>
             <a class="header__link" href="#candidates">Our candidates</a>
             <a class="header__link" href="#news">Actualities</a>
-            <a class="header__link" href="#home">Home</a>
+            <a class="header__link" href="#contactus">Contact Us</a>
         </nav>
 
         <div class="header__socials">
@@ -23,5 +23,49 @@
             <a class="header__social header__social--twitter" href="https://twitter.com" target="_blank"></a>
         </div>
     </header>
+
+    <section class="home" id="home">
+        <div class="home__map home__map--gray home__map--visible"></div>
+        <div class="home__map home__map--color"></div>
+
+        <div class="home__controls">
+            <h1 class="home__heading">En Marche !</h1>
+            <h2 class="home__subheading">Élection législatives * <b>10 et 17 juin 2017</b></h2>
+
+            <div class="home__actions">
+                <a class="home__action" id="showMapButton">SHOW ME THE MAP</a>
+                <a class="home__action home__action--pink" href="#contact">CONTACT US</a>
+            </div>
+
+            <a class="home__down" href="#candidates"></a>
+        </div>
+
+        <a class="home__action home__action--close home__action--hidden" id="hideMapButton">Close the map</a>
+    </section>
+
+    <script>
+        var showMapButton = document.getElementById('showMapButton');
+        var hideMapButton = document.getElementById('hideMapButton');
+        var mapGray = document.getElementsByClassName('home__map--gray')[0];
+        var mapColor = document.getElementsByClassName('home__map--color')[0];
+        var controls = document.getElementsByClassName('home__controls')[0];
+
+        showMapButton.addEventListener('click', showMap);
+        hideMapButton.addEventListener('click', hideMap);
+
+        function showMap() {
+            mapGray.className = 'home__map home__map--gray';
+            mapColor.className = 'home__map home__map--color home__map--visible';
+            controls.className = 'home__controls home__controls--hidden';
+            hideMapButton.className = 'home__action home__action--close';
+        }
+
+        function hideMap() {
+            mapGray.className = 'home__map home__map--gray home__map--visible';
+            mapColor.className = 'home__map home__map--color';
+            controls.className = 'home__controls';
+            hideMapButton.className = 'home__action home__action--hidden';
+        }
+    </script>
 </body>
 </html>

@@ -32,6 +32,13 @@
   @include transform(translate(-50%, -50%));
 }
 
+@mixin center-block-horizontal {
+  position: absolute;
+  left: 50%;
+
+  @include transform(translateX(-50%));
+}
+
 @mixin optional-at-root($sel) {
   @at-root #{if(not &, $sel, selector-append(&, $sel))} {
     @content;
