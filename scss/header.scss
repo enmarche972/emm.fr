@@ -1,4 +1,5 @@
 @import "settings";
+@import "tools";
 
 .header {
   width: 1200px;
@@ -27,8 +28,10 @@
     text-decoration: none;
     margin-right: 50px;
 
+    @include transition(color, 0.45s, ease);
+
     &:hover {
-      color: $cl-pink;
+      color: $cl-dark-gray;
     }
   }
 
@@ -45,8 +48,10 @@
     background-repeat: no-repeat;
     background-position: center;
 
+    @include transition(border-color, 0.45s, ease);
+
     &:hover {
-      border-color: $cl-pink;
+      border-color: $cl-dark-gray;
     }
 
     &--facebook {

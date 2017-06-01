@@ -70,9 +70,13 @@ html, body {
     font-weight: 600;
     color: #0f0f0f;
     text-decoration: none;
-    margin-right: 50px; }
+    margin-right: 50px;
+    -moz-transition: color 0.45s ease 0s;
+    -o-transition: color 0.45s ease 0s;
+    -webkit-transition: color 0.45s ease 0s;
+    transition: color 0.45s ease 0s; }
     .header__link:hover {
-      color: #ff307f; }
+      color: #999999; }
   .header__socials {
     display: inline-block;
     float: right; }
@@ -82,9 +86,13 @@ html, body {
     height: 45px;
     border: 2px solid #D5D5D5;
     background-repeat: no-repeat;
-    background-position: center; }
+    background-position: center;
+    -moz-transition: border-color 0.45s ease 0s;
+    -o-transition: border-color 0.45s ease 0s;
+    -webkit-transition: border-color 0.45s ease 0s;
+    transition: border-color 0.45s ease 0s; }
     .header__social:hover {
-      border-color: #ff307f; }
+      border-color: #999999; }
     .header__social--facebook {
       background-image: url("../images/facebook.png"); }
     .header__social--instagram {
