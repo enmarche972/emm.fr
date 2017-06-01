@@ -1,0 +1,97 @@
+@import "settings";
+@import "tools";
+
+.candidates {
+  width: 100%;
+
+  &__heading {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  &__subheading {
+    width: 470px;
+    margin: 12px auto 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  &__block {
+    width: 100%;
+    height: 420px;
+
+    &--blue {
+      background-color: $cl-blue;
+    }
+
+    &--pink {
+      background-color: $cl-pink;
+    }
+  }
+
+  &__content {
+    position: relative;
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  &__photo {
+    position: absolute;
+    bottom: 0;
+
+    &--first {
+      width: 397px;
+      height: 440px;
+      left: 0;
+
+      background-image: url('../images/candidate-1.png');
+    }
+
+    &--second {
+      width: 363px;
+      height: 482px;
+      right: 0;
+
+      background-image: url('../images/candidate-2.png');
+    }
+  }
+
+  &__text {
+    width: 466px;
+
+    color: $cl-white;
+
+    &--first {
+      padding-top: 130px;
+      margin-left: 475px;
+    }
+
+    &--second {
+      padding-top: 145px;
+      margin-left: 50px;
+
+      text-align: right;
+    }
+  }
+
+  &__name {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  &__title {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  &__info {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+  }
+}

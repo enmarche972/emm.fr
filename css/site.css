@@ -36,7 +36,7 @@
 html, body {
   font-family: "Gill Sans", sans-serif;
   font-size: 16px;
-  color: #0f0f0f;
+  color: #1d1d1d;
   width: 100%;
   min-height: 100%;
   margin: 0;
@@ -68,7 +68,7 @@ html, body {
   .header__link {
     font-size: 18px;
     font-weight: 600;
-    color: #0f0f0f;
+    color: #1d1d1d;
     text-decoration: none;
     margin-right: 50px;
     -moz-transition: color 0.45s ease 0s;
@@ -166,9 +166,9 @@ html, body {
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
-    color: #0f0f0f;
+    color: #1d1d1d;
     cursor: pointer;
-    border: 1px solid #0f0f0f;
+    border: 1px solid #1d1d1d;
     -moz-transition: all 0.45s ease 0s;
     -o-transition: all 0.45s ease 0s;
     -webkit-transition: all 0.45s ease 0s;
@@ -198,3 +198,63 @@ html, body {
     height: 31px;
     margin: 0 auto;
     background-image: url("../images/arrow.png"); }
+
+.candidates {
+  width: 100%; }
+  .candidates__heading {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .candidates__subheading {
+    width: 470px;
+    margin: 12px auto 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700; }
+  .candidates__block {
+    width: 100%;
+    height: 420px; }
+    .candidates__block--blue {
+      background-color: #00afff; }
+    .candidates__block--pink {
+      background-color: #ff307f; }
+  .candidates__content {
+    position: relative;
+    width: 970px;
+    height: 100%;
+    margin: 0 auto; }
+  .candidates__photo {
+    position: absolute;
+    bottom: 0; }
+    .candidates__photo--first {
+      width: 397px;
+      height: 440px;
+      left: 0;
+      background-image: url("../images/candidate-1.png"); }
+    .candidates__photo--second {
+      width: 363px;
+      height: 482px;
+      right: 0;
+      background-image: url("../images/candidate-2.png"); }
+  .candidates__text {
+    width: 466px;
+    color: #fff; }
+    .candidates__text--first {
+      padding-top: 130px;
+      margin-left: 475px; }
+    .candidates__text--second {
+      padding-top: 145px;
+      margin-left: 50px;
+      text-align: right; }
+  .candidates__name {
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic; }
+  .candidates__title {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px; }
+  .candidates__info {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px; }
