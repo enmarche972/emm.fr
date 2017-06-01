@@ -1,4 +1,5 @@
 @import "tools";
+@import "settings";
 
 @font-face {
   font-family: "Gill Sans";
@@ -8,6 +9,7 @@
 html, body {
   font-family: "Gill Sans", sans-serif;
   font-size: 16px;
+  color: $cl-black;
   width: 100%;
   min-height: 100%;
   margin: 0;
@@ -16,4 +18,8 @@ html, body {
 
 * {
   @include border-box();
+}
+
+.clearfix {
+  clear: both;
 }

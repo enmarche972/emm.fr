@@ -5,6 +5,7 @@
 html, body {
   font-family: "Gill Sans", sans-serif;
   font-size: 16px;
+  color: #0f0f0f;
   width: 100%;
   min-height: 100%;
   margin: 0;
@@ -14,3 +15,48 @@ html, body {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+.clearfix {
+  clear: both; }
+
+.header {
+  width: 1200px;
+  height: 45px;
+  line-height: 45px;
+  margin: 50px auto 40px; }
+  .header__logo {
+    display: inline-block;
+    width: 113px;
+    height: 43px;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    margin-right: 140px; }
+  .header__nav {
+    display: inline-block;
+    vertical-align: top; }
+  .header__link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f0f0f;
+    text-decoration: none;
+    margin-right: 50px; }
+    .header__link:hover {
+      color: #ff307f; }
+  .header__socials {
+    display: inline-block;
+    float: right; }
+  .header__social {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #D5D5D5;
+    background-repeat: no-repeat;
+    background-position: center; }
+    .header__social:hover {
+      border-color: #ff307f; }
+    .header__social--facebook {
+      background-image: url("../images/facebook.png"); }
+    .header__social--instagram {
+      background-image: url("../images/instagram.png"); }
+    .header__social--twitter {
+      background-image: url("../images/twitter.png"); }
