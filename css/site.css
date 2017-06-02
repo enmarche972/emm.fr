@@ -414,3 +414,61 @@ html, body {
     .news__more:hover {
       color: #fff;
       background: #1d1d1d; }
+
+.contact {
+  width: 540px;
+  margin: 0 auto 120px; }
+  .contact__heading {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px; }
+  .contact__subheading {
+    width: 470px;
+    margin: 12px auto 100px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 80px; }
+  .contact__field {
+    margin-bottom: 24px; }
+  .contact__label {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 8px; }
+  .contact__textbox {
+    width: 100%;
+    height: 55px;
+    outline: none;
+    padding: 0 20px;
+    border: 1px solid #999999;
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    color: #1d1d1d; }
+  .contact__textarea {
+    width: 100%;
+    height: 220px;
+    outline: none;
+    padding: 24px 20px;
+    border: 1px solid #999999;
+    resize: none;
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    color: #1d1d1d; }
+  .contact__submit {
+    width: 205px;
+    height: 55px;
+    outline: none;
+    background: #ff307f;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    -moz-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    -webkit-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s; }
+    .contact__submit:hover {
+      background: #ff4a8f; }

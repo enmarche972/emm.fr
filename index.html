@@ -210,6 +210,27 @@
         <a class="news__more">More news</a>
     </section>
 
+    <section class="contact">
+        <div class="contact__heading">Contact us</div>
+
+        <div class="contact__subheading">In case of any question, send us a message. We will reply soon!</div>
+
+        <form action="post">
+            <div class="contact__field">
+                <label class="contact__label" for="email">Email</label>
+                <input class="contact__textbox" id="email" name="email" type="text" placeholder="jondoe@gmail.com">
+            </div>
+
+            <div class="contact__field">
+                <label class="contact__label" for="message">Message</label>
+                <textarea class="contact__textarea" id="message" name="message"
+                          placeholder="Your question here"></textarea>
+            </div>
+
+            <input class="contact__submit" type="submit" value="Send a message">
+        </form>
+    </section>
+
     <script>
         var showMapButton = document.getElementById('showMapButton');
         var hideMapButton = document.getElementById('hideMapButton');
