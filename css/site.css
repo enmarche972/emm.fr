@@ -84,21 +84,25 @@ html, body {
     display: inline-block;
     width: 45px;
     height: 45px;
+    line-height: 45px;
+    margin-left: 12px;
+    text-align: center;
+    vertical-align: top;
     border: 2px solid #D5D5D5;
     background-repeat: no-repeat;
     background-position: center;
-    -moz-transition: border-color 0.45s ease 0s;
-    -o-transition: border-color 0.45s ease 0s;
-    -webkit-transition: border-color 0.45s ease 0s;
-    transition: border-color 0.45s ease 0s; }
+    color: #1d1d1d;
+    text-decoration: none;
+    font-size: 28px;
+    -moz-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    -webkit-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s; }
     .header__social:hover {
-      border-color: #999999; }
+      border-color: #999999;
+      color: #999999; }
     .header__social--facebook {
-      background-image: url("../images/facebook.png"); }
-    .header__social--instagram {
-      background-image: url("../images/instagram.png"); }
-    .header__social--twitter {
-      background-image: url("../images/twitter.png"); }
+      font-size: 24px; }
 
 .home {
   width: 1200px;

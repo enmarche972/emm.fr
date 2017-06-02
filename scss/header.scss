@@ -44,26 +44,33 @@
     display: inline-block;
     width: 45px;
     height: 45px;
+    line-height: 45px;
+    margin-left: 12px;
+    text-align: center;
+    vertical-align: top;
     border: 2px solid $cl-gray;
     background-repeat: no-repeat;
     background-position: center;
 
-    @include transition(border-color, 0.45s, ease);
+    color: $cl-black;
+    text-decoration: none;
+    font-size: 28px;
+
+    @include transition(all, 0.45s, ease);
 
     &:hover {
       border-color: $cl-dark-gray;
+      color: $cl-dark-gray;
     }
 
     &--facebook {
-      background-image: url('../images/facebook.png');
+      font-size: 24px;
     }
 
     &--instagram {
-      background-image: url('../images/instagram.png');
     }
 
     &--twitter {
-      background-image: url('../images/twitter.png');
     }
   }
 }
