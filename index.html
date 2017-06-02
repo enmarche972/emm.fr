@@ -13,10 +13,10 @@
         <div class="header__logo"></div>
 
         <nav class="header__nav">
-            <a class="header__link" href="#home">Home</a>
-            <a class="header__link" href="#candidates">Our candidates</a>
-            <a class="header__link" href="#news">Actualities</a>
-            <a class="header__link" href="#contactus">Contact Us</a>
+            <a class="header__link" href="#home" data-scroll>Home</a>
+            <a class="header__link" href="#candidates" data-scroll>Our candidates</a>
+            <a class="header__link" href="#news" data-scroll>Actualities</a>
+            <a class="header__link" href="#contactus" data-scroll>Contact Us</a>
         </nav>
 
         <div class="header__socials">
@@ -42,10 +42,10 @@
 
             <div class="home__actions">
                 <a class="home__action" id="showMapButton">SHOW ME THE MAP</a>
-                <a class="home__action home__action--pink" href="#contactus">CONTACT US</a>
+                <a class="home__action home__action--pink" href="#contactus" data-scroll>CONTACT US</a>
             </div>
 
-            <a class="home__down" href="#candidates"></a>
+            <a class="home__down" href="#candidates" data-scroll></a>
         </div>
 
         <a class="home__action home__action--close home__action--hidden" id="hideMapButton">Close the map</a>
@@ -210,7 +210,7 @@
         <a class="news__more">More news</a>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contactus">
         <div class="contact__heading">Contact us</div>
 
         <div class="contact__subheading">In case of any question, send us a message. We will reply soon!</div>
@@ -268,5 +268,6 @@
             hideMapButton.className = 'home__action home__action--close home__action--hidden';
         }
     </script>
+    <script src="js/smooth-scroll.min.js" async defer></script>
 </body>
 </html>
