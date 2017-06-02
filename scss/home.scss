@@ -106,7 +106,7 @@
       bottom: 0;
       right: 0;
 
-      @include transition(opacity, 2s, ease-out);
+      @include transition(opacity, 0.3s, ease-out);
     }
 
     &--hidden {

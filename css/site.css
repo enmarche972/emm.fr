@@ -190,10 +190,10 @@ html, body {
       position: absolute;
       bottom: 0;
       right: 0;
-      -moz-transition: opacity 2s ease-out 0s;
-      -o-transition: opacity 2s ease-out 0s;
-      -webkit-transition: opacity 2s ease-out 0s;
-      transition: opacity 2s ease-out 0s; }
+      -moz-transition: opacity 0.3s ease-out 0s;
+      -o-transition: opacity 0.3s ease-out 0s;
+      -webkit-transition: opacity 0.3s ease-out 0s;
+      transition: opacity 0.3s ease-out 0s; }
     .home__action--hidden {
       opacity: 0; }
   .home__down {
