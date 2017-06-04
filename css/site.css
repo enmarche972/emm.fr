@@ -127,9 +127,9 @@ html, body {
     -webkit-transition: opacity 0.7s ease 0s;
     transition: opacity 0.7s ease 0s; }
     .home__map--gray {
-      background-image: url("../images/map--gray.png"); }
+      background-image: url("../images/map--gray.svg"); }
     .home__map--color {
-      background-image: url("../images/map--color.png"); }
+      background-image: url("../images/map--color.svg"); }
     .home__map--visible {
       opacity: 1; }
   .home__controls {
