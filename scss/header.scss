@@ -73,4 +73,35 @@
     &--twitter {
     }
   }
+
+  &__origin {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;
+    color: $cl-white;
+    text-decoration: none;
+
+    @include transition(color, 0.45s, ease);
+
+    &:hover {
+      color: $cl-dark-gray;
+    }
+  }
+
+  &__origin-arrow {
+    display: inline-block;
+    width: 35px;
+    background: $cl-black;
+    float: left;
+  }
+
+  &__origin-title {
+    display: inline-block;
+    background: $cl-pink;
+    padding: 0 8px;
+  }
 }
