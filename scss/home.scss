@@ -6,6 +6,7 @@
   height: 700px;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 
   &__map {
     opacity: 0;
@@ -39,11 +40,11 @@
 
     opacity: 1;
 
-    @include transition(all, 0.4s, ease-in);
+    transition: opacity 0.5s ease-in, top 1s ease-out;
 
     &--hidden {
       opacity: 0;
-      top: 200px
+      top: 600px
     }
   }
 
