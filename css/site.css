@@ -59,7 +59,7 @@ html, body {
     display: inline-block;
     width: 113px;
     height: 43px;
-    background-image: url("../images/logo.png");
+    background-image: url("../images/logo.svg");
     background-repeat: no-repeat;
     margin-right: 140px; }
   .header__nav {
@@ -487,7 +487,7 @@ html, body {
     display: inline-block;
     width: 85px;
     height: 32px;
-    background-image: url("../images/logo.png");
+    background-image: url("../images/logo.svg");
     background-size: cover;
     vertical-align: middle; }
   .footer__links {
