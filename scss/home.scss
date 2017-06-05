@@ -10,8 +10,8 @@
 
   &__map {
     opacity: 0;
-    width: 600px;
-    height: 600px;
+    width: 521px;
+    height: 597px;
 
     background-repeat: no-repeat;
     background-position: center;
@@ -21,10 +21,6 @@
 
     &--gray {
       background-image: url('../images/map--gray.svg');
-    }
-
-    &--color {
-      background-image: url('../images/map--color.svg');
     }
 
     &--visible {
