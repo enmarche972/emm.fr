@@ -23,6 +23,12 @@
       background-image: url('../images/map--gray.svg');
     }
 
+    &--color {
+      a:hover {
+        filter: url(#dropshadow);
+      }
+    }
+
     &--visible {
       opacity: 1;
     }
