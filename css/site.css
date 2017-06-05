@@ -302,7 +302,6 @@ html, body {
     text-align: center;
     border: 1px solid #fff;
     margin-top: 24px;
-    margin-right: 24px;
     -moz-transition: all 0.45s ease 0s;
     -o-transition: all 0.45s ease 0s;
     -webkit-transition: all 0.45s ease 0s;
@@ -315,7 +314,7 @@ html, body {
     font-size: 14px; }
   .candidates__social {
     display: inline-block;
-    width: 55px;
+    width: 40px;
     height: 55px;
     line-height: 55px;
     text-align: center;
@@ -329,9 +328,6 @@ html, body {
     transition: color 0.45s ease 0s; }
     .candidates__social:hover {
       color: #1d1d1d; }
-  .candidates__follow {
-    position: relative;
-    top: -4px; }
 
 .news {
   width: 1200px;

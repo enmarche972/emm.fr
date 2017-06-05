@@ -101,7 +101,6 @@
     text-align: center;
     border: 1px solid $cl-white;
     margin-top: 24px;
-    margin-right: 24px;
 
     @include transition(all, 0.45s, ease);
 
@@ -118,7 +117,7 @@
 
   &__social {
     display: inline-block;
-    width: 55px;
+    width: 40px;
     height: 55px;
     line-height: 55px;
     text-align: center;
@@ -132,10 +131,5 @@
     &:hover {
       color: $cl-black;
     }
-  }
-
-  &__follow {
-    position: relative;
-    top: -4px;
   }
 }
