@@ -51,19 +51,23 @@ html, body {
   clear: both; }
 
 .header {
+  position: relative;
   width: 1200px;
   height: 45px;
   line-height: 45px;
   margin: 50px auto 40px; }
   .header__logo {
+    position: absolute;
+    top: 0;
+    left: 0;
     display: inline-block;
     width: 113px;
     height: 43px;
     background-image: url("../images/logo.svg");
-    background-repeat: no-repeat;
-    margin-right: 140px; }
+    background-repeat: no-repeat; }
   .header__nav {
-    display: inline-block;
+    display: block;
+    text-align: center;
     vertical-align: top; }
   .header__link {
     font-size: 18px;
@@ -78,8 +82,10 @@ html, body {
     .header__link:hover {
       color: #999999; }
   .header__socials {
-    display: inline-block;
-    float: right; }
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: inline-block; }
   .header__social {
     display: inline-block;
     width: 45px;
