@@ -267,10 +267,10 @@ html, body {
     width: 466px;
     color: #fff; }
     .candidates__text--first {
-      padding-top: 130px;
+      padding-top: 70px;
       margin-left: 475px; }
     .candidates__text--second {
-      padding-top: 145px;
+      padding-top: 95px;
       margin-left: 50px;
       text-align: right; }
   .candidates__name {
@@ -285,6 +285,47 @@ html, body {
     font-size: 16px;
     font-weight: 600;
     line-height: 25px; }
+  .candidates__programm {
+    display: inline-block;
+    width: 180px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #fff;
+    margin-top: 24px;
+    margin-right: 24px;
+    -moz-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+    -webkit-transition: all 0.45s ease 0s;
+    transition: all 0.45s ease 0s; }
+    .candidates__programm:hover {
+      border-color: #1d1d1d;
+      background: #1d1d1d; }
+  .candidates__socials {
+    display: inline-block;
+    font-size: 14px; }
+  .candidates__social {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 12px;
+    color: #fff;
+    font-size: 24px;
+    -moz-transition: color 0.45s ease 0s;
+    -o-transition: color 0.45s ease 0s;
+    -webkit-transition: color 0.45s ease 0s;
+    transition: color 0.45s ease 0s; }
+    .candidates__social:hover {
+      color: #1d1d1d; }
+  .candidates__follow {
+    position: relative;
+    top: -4px; }
 
 .news {
   width: 1200px;
