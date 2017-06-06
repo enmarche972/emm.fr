@@ -9,6 +9,7 @@
   overflow: hidden;
 
   &__map {
+    position: relative;
     opacity: 0;
     width: 521px;
     height: 597px;
@@ -145,5 +146,89 @@
     height: 31px;
     margin: 0 auto;
     background-image: url('../images/arrow.png');
+  }
+
+  &__caption {
+    position: absolute;
+    font-size: 14px;
+    font-style: italic;
+
+    &--left {
+      text-align: left;
+
+      .home__caption-circle {
+        left: -20px;
+      }
+    }
+
+    &--right {
+      text-align: right;
+
+      .home__caption-circle {
+        right: -20px;
+      }
+    }
+
+    &-circle {
+      width: 12px;
+      height: 12px;
+      border-radius: 12px;
+      position: absolute;
+      top: 10px;
+    }
+
+    &--green {
+      top: 146px;
+      left: -115px;
+
+      .home__caption-circle {
+        background: #baf6cb;
+      }
+    }
+
+    &--purple {
+      top: 5px;
+      left: 258px;
+
+      .home__caption-circle {
+        background: #9575cd;
+      }
+    }
+
+    &--yellow {
+      top: 82px;
+      left: 340px;
+
+      .home__caption-circle {
+        background: #edfa52;
+      }
+    }
+
+    &--crimson {
+      top: 358px;
+      left: 92px;
+
+      .home__caption-circle {
+        background: #c51162;
+      }
+    }
+
+    &--pink {
+      top: 522px;
+      left: 254px;
+
+      .home__caption-circle {
+        background: #ff2d7f;
+      }
+    }
+
+    &--blue {
+      top: 585px;
+      left: 278px;
+
+      .home__caption-circle {
+        background: #00b1fe;
+      }
+    }
   }
 }

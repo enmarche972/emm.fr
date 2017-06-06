@@ -142,6 +142,7 @@ html, body {
   position: relative;
   overflow: hidden; }
   .home__map {
+    position: relative;
     opacity: 0;
     width: 521px;
     height: 597px;
@@ -241,6 +242,54 @@ html, body {
     height: 31px;
     margin: 0 auto;
     background-image: url("../images/arrow.png"); }
+  .home__caption {
+    position: absolute;
+    font-size: 14px;
+    font-style: italic; }
+    .home__caption--left {
+      text-align: left; }
+      .home__caption--left .home__caption-circle {
+        left: -20px; }
+    .home__caption--right {
+      text-align: right; }
+      .home__caption--right .home__caption-circle {
+        right: -20px; }
+    .home__caption-circle {
+      width: 12px;
+      height: 12px;
+      border-radius: 12px;
+      position: absolute;
+      top: 10px; }
+    .home__caption--green {
+      top: 146px;
+      left: -115px; }
+      .home__caption--green .home__caption-circle {
+        background: #baf6cb; }
+    .home__caption--purple {
+      top: 5px;
+      left: 258px; }
+      .home__caption--purple .home__caption-circle {
+        background: #9575cd; }
+    .home__caption--yellow {
+      top: 82px;
+      left: 340px; }
+      .home__caption--yellow .home__caption-circle {
+        background: #edfa52; }
+    .home__caption--crimson {
+      top: 358px;
+      left: 92px; }
+      .home__caption--crimson .home__caption-circle {
+        background: #c51162; }
+    .home__caption--pink {
+      top: 522px;
+      left: 254px; }
+      .home__caption--pink .home__caption-circle {
+        background: #ff2d7f; }
+    .home__caption--blue {
+      top: 585px;
+      left: 278px; }
+      .home__caption--blue .home__caption-circle {
+        background: #00b1fe; }
 
 .candidates {
   width: 100%; }
