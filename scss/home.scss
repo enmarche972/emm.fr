@@ -24,8 +24,30 @@
     }
 
     &--color {
-      a:hover {
-        filter: url(#dropshadow);
+      a {
+        &.purple:hover {
+          filter: url(#dropshadowPurple);
+        }
+
+        &.green:hover {
+          filter: url(#dropshadowGreen);
+        }
+
+        &.yellow:hover {
+          filter: url(#dropshadowYellow);
+        }
+
+        &.blue:hover {
+          filter: url(#dropshadowBlue);
+        }
+
+        &.pink:hover {
+          filter: url(#dropshadowPink);
+        }
+
+        &.crimson:hover {
+          filter: url(#dropshadowCrimson);
+        }
       }
     }
 

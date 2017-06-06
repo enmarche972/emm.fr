@@ -160,8 +160,18 @@ html, body {
     transition: opacity 0.7s ease 0s; }
     .home__map--gray {
       background-image: url("../images/map--gray.svg"); }
-    .home__map--color a:hover {
-      filter: url(#dropshadow); }
+    .home__map--color a.purple:hover {
+      filter: url(#dropshadowPurple); }
+    .home__map--color a.green:hover {
+      filter: url(#dropshadowGreen); }
+    .home__map--color a.yellow:hover {
+      filter: url(#dropshadowYellow); }
+    .home__map--color a.blue:hover {
+      filter: url(#dropshadowBlue); }
+    .home__map--color a.pink:hover {
+      filter: url(#dropshadowPink); }
+    .home__map--color a.crimson:hover {
+      filter: url(#dropshadowCrimson); }
     .home__map--visible {
       opacity: 1; }
   .home__controls {
