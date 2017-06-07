@@ -1,0 +1,29 @@
+<div class="{{ post.container_class }}">
+
+    <a class="{{ post.image_class }}" href="#news">
+        <img src="/images/{{ post.image_file }}">
+    </a>
+
+    <div class="{{ post.content_class }}">
+        <a class="{{ post.title_class }}" href="#news">
+            {{ post.title }}
+            {% if post.has_social %}
+            {% else %}
+                <a href="#news" class="news__lg-read">EN SAVOIR PLUS</a>
+            {% endif %}
+        </a>
+    </div>
+
+    {% if post.has_social %}
+        <div class="news__share">
+            <span class="news__share-text">PARTAGEZ</span>
+            <a class="news__share-link news__share-link--facebook" href="#news">
+                <i class="fa fa-facebook-square"></i>
+            </a>
+            <a class="news__share-link news__share-link--twitter" href="#news">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </div>
+    {% endif %}
+    
+</div>
