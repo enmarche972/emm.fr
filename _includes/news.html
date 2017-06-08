@@ -1,47 +1,22 @@
 <section class="news" id="news">
-    <div class="news__heading">ACTUALITES</div>
 
     <div class="news__subheading">Les dernières actualités de La République En Marche !</div>
 
-    <div class="news__row">
+    {% for post in site.posts %}
 
-        <div class="news__column news__column--left">
-            {% for post in site.posts limit:3 %}
-                {% assign loopindex = forloop.index %}
-                {% if loopindex <= 2 %}
+        {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
 
-                    {% include post.html %}
+        <!-- With this check the thumbnails are divided in rows, each row containing 3 items -->
+        {% if modulo == '1' %}
+            <div class="news__row">
+        {% endif %}
 
-                {% endif %}                                      
+        {% include thumbnail.html %}
 
-            {% endfor %}
-        </div>
-
-        {% for post in site.posts limit:1 offset:2 %}
-            <div class="news__column">
-                {% include post.html %}
+        {% if modulo == '0' or forloop.last %}
             </div>
-        {% endfor %}
+        {% endif %}       
 
-    </div>
+    {% endfor %}
 
-    <div class="news__row">
-        
-        <div class="news__column news__column--left">
-            {% for post in site.posts limit:1 offset:3 %}
-                {% include post.html %}
-            {% endfor %}
-        </div>
-
-        <div class="news__column">
-            {% for post in site.posts offset:4 %}
-                {% include post.html %}
-            {% endfor %}
-        </div>
-
-    </div>    
-
-    <div class="clearfix"></div>
-
-    <a class="news__more" href="https://en-marche.fr/articles/actualites" target="_blank">Plus d'actualités</a>
 </section>

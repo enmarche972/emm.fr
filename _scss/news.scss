@@ -216,4 +216,25 @@
       background: $cl-black;
     }
   }
+
+  &__thumbnail {
+    float: left;
+  }
+
+  &__sm-container {
+    margin-right: 16px;
+  }
+
+  &__lg-container {
+    margin-right: 16px;
+  }
+
+  &__item--left {
+    margin-right: 16px;  
+  }
+
+  &__item--right {
+    margin-right: 0;  
+  }
+
 }

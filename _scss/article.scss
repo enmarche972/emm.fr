@@ -1,0 +1,111 @@
+ul {
+    list-style: outside none none;
+}
+li, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.article {
+    margin-bottom: 78px;
+}
+
+.article__heading {
+    max-width: 700px;
+    width: 90%;
+    margin: 100px auto 30px;
+    font-weight: 700;
+    font-size: 34px;
+    letter-spacing: -0.5px;
+    line-height: 38px;
+    color: #333;
+}
+
+.article__summary {
+    font-family: Helvetica, sans-serif;
+    max-width: 700px;
+    width: 90%;
+    margin: 30px auto 20px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.article__body {
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 0.3px;
+    line-height: 1.62;
+    color: #333;
+    border-bottom: 2px solid #d5d5d5;
+    max-width: 700px;
+    width: 90%;
+    margin: 90px auto 30px;
+}
+
+.article__social {
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.article__social, .article__social .btn {
+    align-items: center;
+    display: flex;
+}
+
+.article__social .btn {
+    margin-right: 5px;
+}
+
+.btn {
+    align-items: center;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: Gillsans,Roboto,Helvetica,sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    padding: 7px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.45s ease 0s;
+}
+
+.btn:hover {
+    background: #000 none repeat scroll 0 0;
+    border-color: #000;
+    color: #fff;
+}
+
+.btn--facebook {
+    background: #3b5998 none repeat scroll 0 0;
+    border-color: #3b5998;
+    color: #fff;
+}
+.btn--twitter {
+    background: #1da1f2 none repeat scroll 0 0;
+    border-color: #1da1f2;
+    color: #fff;
+}
+
+.btn--social {
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 12px;
+}
+
+.btn--email {
+    background: #bcbcbc none repeat scroll 0 0;
+    border-color: #bcbcbc;
+    color: #fff;
+}
+
+.article__social .fa {
+    font-size: 20px;
+    margin-right: 10px;
+}
