@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "10 raisons de voter La République En Marche"
+date:   2017-06-06 18:40:01 +0300
+image_file: "news-sm-2.png"
+post_type: normal
+---
+

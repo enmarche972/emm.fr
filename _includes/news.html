@@ -1,0 +1,22 @@
+<section class="news" id="news">
+
+    <div class="news__subheading">Les dernières actualités de La République En Marche !</div>
+
+    {% for post in site.posts %}
+
+        {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
+
+        <!-- With this check the thumbnails are divided in rows, each row containing 3 items -->
+        {% if modulo == '1' %}
+            <div class="news__row">
+        {% endif %}
+
+        {% include thumbnail.html %}
+
+        {% if modulo == '0' or forloop.last %}
+            </div>
+        {% endif %}       
+
+    {% endfor %}
+
+</section>
