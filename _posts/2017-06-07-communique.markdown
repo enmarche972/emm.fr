@@ -3,7 +3,6 @@ layout: post
 title:  "Communiqué : Décision du Conseil constitutionnel"
 date:   2017-06-07 18:50:01 +0300
 image_file: "news-sm-1.png"
-has_social: true
 post_type: normal
 summary: "Réaction du Président de la République à la suite de la décision du Président Trump de retirer les Etats-Unis de l'accord de Paris."
 ---
