@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+  {% include article_head.html %}
 
   <body>
+    {% include facebook.html %}
 
     {% include header.html %}
 
@@ -11,7 +12,7 @@
     
     {% include contact.html %}
 
-    {% include footer.html %}
+    {% include article_footer.html %}
 
   </body>
 

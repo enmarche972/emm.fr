@@ -9,15 +9,14 @@
          - {{ page.summary }}
         {% endif %}
     </h2>
-
     <ul class="article__social">
-        <li role="button" aria-label="Partagez sur Facebook" class="btn btn--social btn--facebook" onclick="App.share('facebook', window.location.href, 'Make\x20our\x20planet\x20great\x20again')">
+        <li role="button" aria-label="Partagez sur Facebook" class="btn btn--social btn--facebook" onclick="shareFacebook('https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&amp;src=sdkpreparse')">
             <i class="fa fa-facebook-square"></i> <span>Partagez</span>
         </li>
-        <li role="button" aria-label="Partagez via Twitter" class="btn btn--social btn--twitter" onclick="App.share('twitter', window.location.href, 'Make\x20our\x20planet\x20great\x20again')">
+        <li role="button" aria-label="Partagez via Twitter" onclick="shareTwitter('{{ site.url }}{{ page.url }}', '{{ page.title }}')" class="btn btn--social btn--twitter">
             <i class="fa fa-twitter"></i> <span>Tweetez</span>
         </li>
-        <li role="button" aria-label="Partagez via email" class="btn btn--social btn--email" onclick="App.share('email', window.location.href, 'Make our planet great again')">
+        <li role="button" aria-label="Partagez via email" onclick="shareEmail('{{ site.url }}{{ page.url }}', '{{ page.title }}')" class="btn btn--social btn--email">
             <i class="fa fa-envelope-o"></i> <span>Envoyez</span>
         </li>
     </ul>
