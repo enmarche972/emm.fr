@@ -12,28 +12,30 @@
     </div>
 </footer>
 
-  <script>
-      var showMapButton = document.getElementById('showMapButton');
-      var hideMapButton = document.getElementById('hideMapButton');
-      var mapGray = document.getElementsByClassName('home__map--gray')[0];
-      var mapColor = document.getElementsByClassName('home__map--color')[0];
-      var controls = document.getElementsByClassName('home__controls')[0];
+<script>
+    var showMapButton = document.getElementById('showMapButton');
+    var hideMapButton = document.getElementById('hideMapButton');
+    var mapGray = document.getElementsByClassName('home__map--gray')[0];
+    var mapColor = document.getElementsByClassName('home__map--color')[0];
+    var controls = document.getElementsByClassName('home__controls')[0];
 
-      showMapButton.addEventListener('click', showMap);
-      hideMapButton.addEventListener('click', hideMap);
+    showMapButton.addEventListener('click', showMap);
+    hideMapButton.addEventListener('click', hideMap);
 
-      function showMap() {
-          mapGray.className = 'home__map home__map--gray';
-          mapColor.className = 'home__map home__map--color home__map--visible';
-          controls.className = 'home__controls home__controls--hidden';
-          hideMapButton.className = 'home__action home__action--close';
-      }
+    function showMap() {
+        mapGray.className = 'home__map home__map--gray';
+        mapColor.className = 'home__map home__map--color home__map--visible';
+        controls.className = 'home__controls home__controls--hidden';
+        hideMapButton.className = 'home__action home__action--close';
+    }
 
-      function hideMap() {
-          mapGray.className = 'home__map home__map--gray home__map--visible';
-          mapColor.className = 'home__map home__map--color';
-          controls.className = 'home__controls';
-          hideMapButton.className = 'home__action home__action--close home__action--hidden';
-      }
-  </script>
-  <script src="/js/smooth-scroll.min.js" async defer></script>
+    function hideMap() {
+        mapGray.className = 'home__map home__map--gray home__map--visible';
+        mapColor.className = 'home__map home__map--color';
+        controls.className = 'home__controls';
+        hideMapButton.className = 'home__action home__action--close home__action--hidden';
+    }
+</script>
+
+<script src="/js/script.js" async defer></script>
+<script src="/js/smooth-scroll.min.js" async defer></script>

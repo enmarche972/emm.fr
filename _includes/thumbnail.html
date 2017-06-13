@@ -13,10 +13,10 @@
 
             <div class="news__share">
                 <span class="news__share-text">PARTAGEZ</span>
-                <a class="news__share-link news__share-link--facebook" href="#news">
+                <a class="news__share-link news__share-link--facebook" href="#news" onclick="shareFacebook('https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}&amp;src=sdkpreparse')">
                     <i class="fa fa-facebook-square"></i>
                 </a>
-                <a class="news__share-link news__share-link--twitter" href="#news">
+                <a class="news__share-link news__share-link--twitter" href="#news" onclick="shareTwitter('{{ site.url }}{{ post.url }}', '{{ post.title }}')">
                     <i class="fa fa-twitter"></i>
                 </a>
             </div>
