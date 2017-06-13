@@ -7,52 +7,95 @@ post_type: normal
 summary: "Ce jeudi soir le centre Atlantique a organisé le premier atelier sur l'avenir de la République En Marche"
 ---
 <style>
+  .article__body {
+    max-width: 1045px;
+    min-width: 900px;
+  }
+
 	.comite-title {
     color: #f1fa53;
     font-family: "Gill Sans";
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 700;
     font-style: italic;
     background-color: #e8457e;
+    padding: 0;
+    text-align: center;
 	}
+  
+  .article-heading {
+    margin-bottom: 40px;
+  }
+  
   .big{
-    width: 245px
+    width: 230px
   }
   .small{
-    width: 173px;
+    width: 150px;
   }
 
   .container {
-    margin: auto;
-    padding: 10px;
+    margin: 53px auto;
+    width: 90%;
   }
-  .one {
-      width: 50%;
-      height: 332px;
-      background: red;
-      float: left;
+  
+  .left-part {
+    float: left;
+    width: 50%;
+    padding: 0px 70px 30px 70px;
+    text-align: justify;
+    color: #555;
   }
-  .two {
-      margin-left: 15%;
-      background: black;
-      height: 332px;
-      background-color: #d8d8d8;
+  
+  .right-part {
+    float: right;
+    width: 50%;
+    text-align: justify;
+    color: #555;
+  }
+  
+  .pull-more-right {
+    padding-left: 80px;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .highlited {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+    width: 757px;
+    margin: 30px auto;
   }
 </style>
 
 <section class="container">
-    <div class="one">
-      <div class="comite-title small">Centre</div><div class="comite-title big">Atlantique</div>
+    <div class="left-part">
+      <div class='article-heading'>  
+        <div class="comite-title small">Centre</div>
+        <div class="comite-title big">Atlantique</div>
+      </div>
       Hier le Centre Atlantique a organisé le premier atelier sur le futur de La République En Marche!
       La discussion était très conviviale avec de propositions très utiles à l'amélioration de la vie dans  plusieurs domaines. Le sujet qui revenait souvent était autour de la vision partenariale du Président Emmanuel MACRON.
     </div>
-    <div class="two">
+    <div class="right-part">
       <img src="/images/futur-emm-ca1.png" />
     </div>
+    <div class='clearfix'></div>
+</section>
+<section class="container">
+    <div class="left-part">
+      <img src="/images/conference.png" />   
+    </div>
+    <div class="right-part pull-more-right">
+      Nous avons expliqué le rôle que pourra jouer les En Marche de la société civile. Jacky a expliqué plus en détail la politique générale du président tout en rappelant que nous sommes invités à faire remonter nos préoccupations spécifiques. Question encore ou voir forme d'inquiétude, les marcheurs de la société civile ne seront-ils pas écarter de tout au retour ou à l'arrivée des poids lourds politiques. Pour cette premiere sur L'avenir de En Marche, nous considérons qu'elle était d'un très haut niveau en matière d'échange.
+    </div>
+    <div class='clearfix'></div>
 </section>
 
-
-Nous avons expliqué le rôle que pourra jouer les En Marche de la société civile. Jacky a expliqué plus en détail la politique générale du président tout en rappelant que nous sommes invités à faire remonter nos préoccupations spécifiques. Question encore ou voir forme d'inquiétude, les marcheurs de la société civile ne seront-ils pas écarter de tout au retour ou à l'arrivée des poids lourds politiques. Pour cette premiere sur L'avenir de En Marche, nous considérons qu'elle était d'un très haut niveau en matière d'échange.
-<p>
-**RDV est pris pour une prochaine rencontre 2 voir 3 semaines après les législatives. Merci à tous les marcheuses et marcheurs du Centre Atlantique de leur présence.**
+<p class='highlited'>
+  RDV est pris pour une prochaine rencontre 2 voir 3 semaines après les législatives. Merci à tous les marcheuses et marcheurs du Centre Atlantique de leur présence
 </p>
