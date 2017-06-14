@@ -14,9 +14,9 @@
     {% for idx in (1..rows) %} 
         {% assign modulo = idx | modulo: 2 %}
         {% if modulo == 1 %}
-            <div class="news-row reverse">
-        {% else %}
             <div class="news-row">
+        {% else %}
+            <div class="news-row reverse">
         {% endif %}
             {% for i in (1..per_row) %}
                 {% if i <= 2 %}
