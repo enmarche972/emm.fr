@@ -1,10 +1,12 @@
 ---
 layout: post
 title:  "Centre Atlantique ouvre la danse"
-date:   2017-06-09 11:20:00 +0400
+date:   2017-0613 11:20:00 +0400
 image_file: "news-sm-1.png"
 post_type: normal
+lang: fr
 summary: "Ce jeudi soir le centre Atlantique a organisé le premier atelier sur l'avenir de la République En Marche"
+category: actualites
 ---
 <style>
   .article__body {
@@ -22,11 +24,11 @@ summary: "Ce jeudi soir le centre Atlantique a organisé le premier atelier sur 
     padding: 0;
     text-align: center;
 	}
-  
+
   .article-heading {
     margin-bottom: 40px;
   }
-  
+
   .big{
     width: 230px
   }
@@ -38,7 +40,7 @@ summary: "Ce jeudi soir le centre Atlantique a organisé le premier atelier sur 
     margin: 53px auto;
     width: 90%;
   }
-  
+
   .left-part {
     float: left;
     width: 50%;
@@ -46,22 +48,22 @@ summary: "Ce jeudi soir le centre Atlantique a organisé le premier atelier sur 
     text-align: justify;
     color: #555;
   }
-  
+
   .right-part {
     float: right;
     width: 50%;
     text-align: justify;
     color: #555;
   }
-  
+
   .pull-more-right {
     padding-left: 80px;
   }
-  
+
   .clearfix {
     clear: both;
   }
-  
+
   .highlited {
     font-weight: bolder;
     font-style: italic;
