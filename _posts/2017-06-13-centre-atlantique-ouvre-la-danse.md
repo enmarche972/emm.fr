@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Centre Atlantique ouvre la danse"
-date:   2017-0613 11:20:00 +0400
+date:   2017-06-13 11:20:00 +0400
 image_file: "news-sm-1.png"
 post_type: normal
 lang: fr
