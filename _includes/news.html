@@ -12,7 +12,12 @@
     {% assign last_highlited = 0%}
     
     {% for idx in (1..rows) %} 
-        <div class="news__row">
+        {% assign modulo = idx | modulo: 2 %}
+        {% if modulo == 1 %}
+            <div class="news-row reverse">
+        {% else %}
+            <div class="news-row">
+        {% endif %}
             {% for i in (1..per_row) %}
                 {% if i <= 2 %}
                     {% assign post = collection[0].items[last_normal] %}
