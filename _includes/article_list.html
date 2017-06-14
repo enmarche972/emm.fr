@@ -9,12 +9,13 @@
 			<li>Discours</li>
 		</ul>
 	</div>
+	{% for post in site.posts %}
 	<div class="article__item">
 		<div class="article-item-thumb">
-			<img src="/images/conference.png" />
+			<img src="/images/{{ post.image_file }}" />
 		</div>
 		<div class="article-item-text">
-			<h1>A Brief History Of Creation</h1>
+			<h1>{{ post.title }}</h1>
 			<h3>
 				PARTAGEZ: 
 				<a href="#"><span class="fa fa-facebook"></span></a>
@@ -22,4 +23,5 @@
 			</h3>
 		</div>
 	</div>
+	{% endfor %}
 </div>
