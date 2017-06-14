@@ -2,6 +2,14 @@
 @import "settings";
 @import "heading";
 
+.news-row {
+  display: flex;
+  margin: 30px auto;
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+}
+
 .news {
   width: 1200px;
   margin: 0 auto;

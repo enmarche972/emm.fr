@@ -1,22 +1,33 @@
 <section class="news" id="news">
 
     <div class="news__subheading">Les dernières actualités de La République En Marche !</div>
-
-    {% for post in site.posts %}
-
-        {% capture modulo %}{{ forloop.index | modulo: 3 }}{% endcapture %}
-
-        <!-- With this check the thumbnails are divided in rows, each row containing 3 items -->
-        {% if modulo == '1' %}
-            <div class="news__row">
+    <!--
+        Collection 0 -> normal posts
+        Collection 1 -> highlited posts
+     -->
+    {% assign collection = site.posts | sort: "date" | group_by: "post_type" %}
+    {% assign rows = 2 %}
+    {% assign per_row = 3 %}
+    {% assign last_normal = 0 %}
+    {% assign last_highlited = 0%}
+    
+    {% for idx in (1..rows) %} 
+        {% assign modulo = idx | modulo: 2 %}
+        {% if modulo == 1 %}
+            <div class="news-row reverse">
+        {% else %}
+            <div class="news-row">
         {% endif %}
-
-        {% include thumbnail.html %}
-
-        {% if modulo == '0' or forloop.last %}
-            </div>
-        {% endif %}       
-
+            {% for i in (1..per_row) %}
+                {% if i <= 2 %}
+                    {% assign post = collection[0].items[last_normal] %}
+                    {% assign last_normal = last_normal | plus: 1 %}
+                {% else %}
+                    {% assign post = collection[1].items[last_highlited] %}
+                    {% assign last_highlited = last_highlited | plus: 1 %}
+                {% endif %}
+                {% include thumbnail.html %}
+            {% endfor %}
+        </div>
     {% endfor %}
-
 </section>
