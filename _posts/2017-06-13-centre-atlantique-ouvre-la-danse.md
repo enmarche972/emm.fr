@@ -1,11 +1,12 @@
 ---
 layout: post
 title:  "Centre Atlantique ouvre la danse"
-date:   2017-06-09 11:20:00 +0400
+date:   2017-0613 11:20:00 +0400
 image_file: "news-sm-1.png"
 post_type: normal
 lang: fr
 summary: "Ce jeudi soir le centre Atlantique a organisé le premier atelier sur l'avenir de la République En Marche"
+category: actualites
 ---
 <style>
   .article__body {
