@@ -30,8 +30,11 @@ sass:
 markdown: kramdown
 github: [metadata]
 
-gems:
-  - jekyll-feed
+languages: ["fr", "en", "ht"]
+default_lang: "fr"
+exclude_from_localization: ["javascript", "images", "css"]
+parallel_localization: true
+
 exclude:
   - Gemfile
   - Gemfile.lock
