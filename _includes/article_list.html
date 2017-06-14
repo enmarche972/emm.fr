@@ -1,0 +1,27 @@
+<div class="articles__list">
+	<h1>Articles</h1>
+	<div class="article__filters">
+		<h3>Filters: </h3>
+		<ul>
+			<li>Toute l’eactualite</li>
+			<li>Articles</li>
+			<li>Vidéos</li>
+			<li>Discours</li>
+		</ul>
+	</div>
+	{% for post in site.posts %}
+	<div class="article__item">
+		<div class="article-item-thumb">
+			<img src="/images/{{ post.image_file }}" />
+		</div>
+		<div class="article-item-text">
+			<h1>{{ post.title }}</h1>
+			<h3>
+				PARTAGEZ: 
+				<a href="#"><span class="fa fa-facebook"></span></a>
+				<a href="#"><span class="fa fa-twitter"></span></a>
+			</h3>
+		</div>
+	</div>
+	{% endfor %}
+</div>
