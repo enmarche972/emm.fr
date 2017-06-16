@@ -7,6 +7,16 @@ image_file: "nord-ca-small.png"
 post_type: normal
 ---
 <style>
+	.article__body {
+    	max-width: 1045px;
+   		min-width: 900px;
+  	}
+
+	#article-body {
+		display: flex;
+		margin: 0 auto;
+	}
+
 	.article-title {
 		display: block;
 		background: #40f2b6;
@@ -39,18 +49,63 @@ post_type: normal
 		margin-bottom: 61px;
 	}
 	
+	.sub-title {
+		margin-bottom: 35px;
+	}
+	
 	.normal {
 		font-weight: normal;
 	}
+	
+	.highlited-date {
+		background: #40f2b6;
+	    text-align: center;
+	    width: 247px;
+	    padding: 6px;
+	    font-weight: bolder;
+	    color: black;
+	    font-size: 22px;
+	    margin-bottom: 45px;
+	}
+	
+	.article-text {
+		text-align: justify;
+		font-family: 'Gill Sans';
+		font-size: 17px;
+		font-weight: 300px;	
+		width: 353px;
+		margin-bottom: 30px;
+	}
+	
+	#left-part {
+		width: 40%;
+	}
+	
+	#right-part {
+		width: 60%;
+	}
+	
+	#right-part img {
+		width: 600px;	
+	}
 </style>
-<section>
-	<h1 class='main-title'>
-		<span class='article-title small'>Nord</span> 
-		<span class='article-title big'>En Marche!</span>
-	</h1>
-	<h2>
-		<span class='article-sub normal'>ELECTIONS LEGISLATIVES</span>
-		<span class='article-sub'>2 ème CIRCONSCRIPTION</span>
- 		<span class='article-sub normal'>DE LA MARTINIQUE</span>
-	</h2>
+<section id="article-body">
+	<div id='left-part'>
+		<h1 class='main-title'>
+			<span class='article-title small'>Nord</span> 
+			<span class='article-title big'>En Marche!</span>
+		</h1>
+		<h2 class='sub-title'>
+			<span class='article-sub normal'>ELECTIONS LEGISLATIVES</span>
+			<span class='article-sub'>2 ème CIRCONSCRIPTION</span>
+	 		<span class='article-sub normal'>DE LA MARTINIQUE</span>
+		</h2>
+		<h3 class='highlited-date'>10 ET 17 JUIN 2017</h3>
+		<p class='article-text'>Face à l’engagement et au parrainage de Justin PAMPHILE au candidat Emmanuel MACRON lors de la campagne des élections présidentielles dès le mois de décembre 2016, et son engagement publique de siéger dans le groupe de la majorité présidentielle</p>
+
+		<p class='article-text'>140 « Marcheurs » sur les 142 que compte le comité du nord de la Martinique ont décidé de SOUTENIR LA CANDIDATURE DE JUSTIN PAMPHILE et de sa suppléante ROSE MARIE GENOT PLESDIN.</p>
+	</div>
+	<div id="right-part">
+		<img src='/images/continent.png' />
+	</div>
 </section>
