@@ -63,23 +63,19 @@ $paginate-square-size: 35px;
 
 .pagination-wrap {
 	width: 340px;
+	height: 36px;
 	margin: 0 auto;
 }
 
 .paginate-button {
-	display: inline-block;
-	border: 1px solid silver;
+	float: left;
 	width: $paginate-square-size;
 	height: $paginate-square-size;
+	border: 1px solid gray;
 	text-align: center;
 	line-height: $paginate-square-size;
-	margin: 0 5px;
-	&.active {
-		border: 1px solid black;
-		font-weight: bolder;
-	}
 }
 
 .paginate-controll {
-	display: inline-block;
+	float: left;
 }
