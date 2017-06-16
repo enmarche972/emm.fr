@@ -1,3 +1,11 @@
+/*
+  Variables
+*/
+$paginate-square-size: 35px;
+
+/*
+ SASS code
+*/
 .articles__list {
 	width: 825px;
 	margin: 0 auto;
@@ -45,4 +53,33 @@
 			color: gray;
 		}
 	}
+}
+
+.article__pagination {
+	width: 825px;
+	margin: 20px auto;
+	margin-bottom: 40px;
+}
+
+.pagination-wrap {
+	width: 340px;
+	margin: 0 auto;
+}
+
+.paginate-button {
+	display: inline-block;
+	border: 1px solid silver;
+	width: $paginate-square-size;
+	height: $paginate-square-size;
+	text-align: center;
+	line-height: $paginate-square-size;
+	margin: 0 5px;
+	&.active {
+		border: 1px solid black;
+		font-weight: bolder;
+	}
+}
+
+.paginate-controll {
+	display: inline-block;
 }
