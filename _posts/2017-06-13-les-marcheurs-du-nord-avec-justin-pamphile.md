@@ -88,6 +88,16 @@ post_type: normal
 	#right-part img {
 		width: 600px;	
 	}
+	
+	.highlited {
+	    font-weight: bolder;
+	    font-style: italic;
+	    font-size: 25px;
+	    text-align: center;
+	    width: 757px;
+	    margin: 30px auto;
+	    color: black;
+  	}
 </style>
 <section id="article-body">
 	<div id='left-part'>
@@ -109,3 +119,6 @@ post_type: normal
 		<img src='/images/continent.png' />
 	</div>
 </section>
+<p class='highlited'>
+  Les 10 et 17 juin. ILS APPELENT À VOTER ET FAIRE VOTER. JUSTIN PAMPHILE et sa suppléante ROSE MARIE GENOT PLESDIN.
+</p>
