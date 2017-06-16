@@ -4,6 +4,9 @@
     <h2 class="article__summary">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ page.date | date: "%-d %B %Y" | replace:"January","Janvier" | replace:"February","Fevrier" | replace:"March","Mars" | replace:"April","Avril" | replace:"May","Mai" | replace:"June","Juin" | replace:"July","Juillet" | replace:"August","Août"| replace:"September","Septembre" | replace:"October","Octobre" | replace:"November","Novembre" | replace:"December","Decembre" }}
+            {% if page.extra_info %}
+                <span> - {{ page.extra_info }}</span>
+            {% endif %}
         </time>
         {% if page.summary %}
          - {{ page.summary }}
