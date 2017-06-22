@@ -9,7 +9,7 @@
 			<li>Discours</li>
 		</ul>
 	</div>
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 	<div class="article__item">
 		<div class="article-item-thumb">
 			<img src="/images/{{ post.image_file }}" />
