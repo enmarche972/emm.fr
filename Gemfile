@@ -25,4 +25,5 @@ group :jekyll_plugins do
    gem "github-pages"
    gem "jekyll-polyglot"
    gem 'jekyll-compose'
+   gem 'jekyll-paginate'
 end
