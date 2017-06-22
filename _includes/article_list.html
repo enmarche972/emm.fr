@@ -25,15 +25,17 @@
 	</div>
 	{% endfor %}
 </div>
+<!-- Pagination links -->
 <div class="article__pagination">
-	<div class='pagination-wrap'>
-		<div class='paginate-button'><a href="#">&lt;</a></div>
-		<div class='paginate-button'><a href="#">1</a></div>
-		<div class='paginate-button'><a href="#">2</a></div>
-		<div class='paginate-button active'><a href="#">3</a></div>
-		<div class='paginate-button'><a href="#">4</a></div>
-		<div class='paginate-button'><a href="#">5</a></div>
-		<div class="paginate-button"><a href="#">&gt;</a></div>
-		<div class='clearfix'></div>
-	</div>
+ {% if paginator.previous_page %}
+ 	<a href="{{ paginator.previous_page_path }}" class='paginate-button'>Previous</a>
+ {% else %}
+ 	<span class='paginate-button'>Previous</span>
+ {% endif %}
+ <span class="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+ {% if paginator.next_page %}
+ 	<a href="{{ paginator.next_page_path }}" class='paginate-button'>Next</a>
+ {% else %}
+ 	<span class='paginate-button'>Next</span>
+ {% endif %}
 </div>

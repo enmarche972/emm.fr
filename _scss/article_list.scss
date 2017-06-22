@@ -67,19 +67,12 @@ $paginate-square-size: 35px;
 
 .paginate-button {
 	display: inline-block;
-	width: $paginate-square-size;
-	height: $paginate-square-size;
 	border: 1px solid gray;
 	text-align: center;
-	line-height: $paginate-square-size;
+	padding: 15px;
 	&.active {
 		font-weight: bolder;
 		border: 1px solid black;
-	}
-	&:hover {
-		font-weight: bolder;
-		border: 1px solid black;
-		color: black;
 	}
 	a {
 		text-decoration: none;
