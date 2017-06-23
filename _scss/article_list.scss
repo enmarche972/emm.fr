@@ -9,6 +9,9 @@ $paginate-square-size: 35px;
 .articles__list {
 	width: 825px;
 	margin: 0 auto;
+	h1 {
+		text-align: center;
+	}
 }
 
 .article__filters {
@@ -29,7 +32,7 @@ $paginate-square-size: 35px;
 
 .article__item {
 	display: flex;
-	border-top: 1px solid #7f7f7f;
+	border-top: 1px solid #D4D4D4;
 	padding-top: 60px;
 	margin-bottom: 31px;
 	img {
