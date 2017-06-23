@@ -9,7 +9,7 @@
 			<li>Discours</li>
 		</ul>
 	</div>
-	{% for post in site.posts %}
+	{% for post in paginator.posts %}
 	<div class="article__item">
 		<div class="article-item-thumb">
 			<img src="/images/{{ post.image_file }}" />
@@ -24,4 +24,18 @@
 		</div>
 	</div>
 	{% endfor %}
+</div>
+<!-- Pagination links -->
+<div class="article__pagination">
+ {% if paginator.previous_page %}
+ 	<a href="{{ paginator.previous_page_path }}" class='paginate-button'>Previous</a>
+ {% else %}
+ 	<span class='paginate-button'>Previous</span>
+ {% endif %}
+ <span class="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+ {% if paginator.next_page %}
+ 	<a href="{{ paginator.next_page_path }}" class='paginate-button'>Next</a>
+ {% else %}
+ 	<span class='paginate-button'>Next</span>
+ {% endif %}
 </div>
