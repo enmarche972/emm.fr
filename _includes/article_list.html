@@ -15,7 +15,8 @@
 			<img src="/images/{{ post.image_file }}" />
 		</div>
 		<div class="article-item-text">
-			<h1>{{ post.title }}</h1>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+           	<h2>{{ post.date | date: "%-d %B %Y" | replace:"January","Janvier" | replace:"February","Fevrier" | replace:"March","Mars" | replace:"April","Avril" | replace:"May","Mai" | replace:"June","Juin" | replace:"July","Juillet" | replace:"August","Août"| replace:"September","Septembre" | replace:"October","Octobre" | replace:"November","Novembre" | replace:"December","Decembre" }}</h2>
 			<h3>
 				PARTAGEZ: 
 				<a data-site="{{ site.url }}" data-url="{{ post.url }}" class='click-facebook' href="#"><span class="fa fa-facebook facebook"></span></a>
