@@ -1,3 +1,11 @@
+/*
+  Variables
+*/
+$paginate-square-size: 35px;
+
+/*
+ SASS code
+*/
 .articles__list {
 	width: 825px;
 	margin: 0 auto;
@@ -45,4 +53,33 @@
 			color: gray;
 		}
 	}
+}
+
+.article__pagination {
+	width: 825px;
+	margin: 20px auto;
+	margin-bottom: 40px;
+}
+
+.pagination-wrap {
+	text-align: center;
+}
+
+.paginate-button {
+	display: inline-block;
+	border: 1px solid gray;
+	text-align: center;
+	padding: 15px;
+	&.active {
+		font-weight: bolder;
+		border: 1px solid black;
+	}
+	a {
+		text-decoration: none;
+		color: black;
+	}
+}
+
+.clearfix {
+	clear: both;
 }
