@@ -1,9 +1,9 @@
 <div class="articles__list">
-	<h1>Articles</h1>
+	<h1>Toute l'actualité</h1>
 	<div class="article__filters">
-		<h3>Filters: </h3>
+		<h3>FILTRES :</h3>
 		<ul>
-			<li>Toute l’eactualite</li>
+			<li>Toute l'actualité</li>
 			<li>Articles</li>
 			<li>Vidéos</li>
 			<li>Discours</li>
@@ -15,11 +15,12 @@
 			<img src="/images/{{ post.image_file }}" />
 		</div>
 		<div class="article-item-text">
-			<h1>{{ post.title }}</h1>
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+           	<h2>{{ post.date | date: "%-d %B %Y" | replace:"January","Janvier" | replace:"February","Fevrier" | replace:"March","Mars" | replace:"April","Avril" | replace:"May","Mai" | replace:"June","Juin" | replace:"July","Juillet" | replace:"August","Août"| replace:"September","Septembre" | replace:"October","Octobre" | replace:"November","Novembre" | replace:"December","Decembre" }}</h2>
 			<h3>
-				PARTAGEZ: 
-				<a href="#"><span class="fa fa-facebook"></span></a>
-				<a href="#"><span class="fa fa-twitter"></span></a>
+				PARTAGEZ
+				<a data-site="{{ site.url }}" data-url="{{ post.url }}" class='click-facebook' href="#"><span class="fa fa-facebook-square facebook"></span></a>
+				<a data-title="{{ post.title }}" data-site="{{ site.url }}" data-url="{{ post.url }}" class='click-twitter' href="#"><span class="fa fa-twitter twitter"></span></a>
 			</h3>
 		</div>
 	</div>
@@ -27,15 +28,28 @@
 </div>
 <!-- Pagination links -->
 <div class="article__pagination">
- {% if paginator.previous_page %}
- 	<a href="{{ paginator.previous_page_path }}" class='paginate-button'>Previous</a>
- {% else %}
- 	<span class='paginate-button'>Previous</span>
- {% endif %}
- <span class="page-number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
- {% if paginator.next_page %}
- 	<a href="{{ paginator.next_page_path }}" class='paginate-button'>Next</a>
- {% else %}
- 	<span class='paginate-button'>Next</span>
- {% endif %}
+	<div class='pagination-wrap'>
+		 {% if paginator.previous_page %}
+		 	<a href="{{ paginator.previous_page_path }}" class='paginate-button'>
+		 		<i class='fa fa-chevron-left'></i>
+		 	</a>
+		 {% endif %}
+
+		 {% for page in (1..paginator.total_pages) %}
+		 	{% assign klass = '' %}
+		 	{% if paginator.page == page %}
+		 		{% assign klass = 'active' %}
+		 	{% endif %}
+		 	{% if page == 1 %}
+		 		<a href="/articles/" class='paginate-button {{ klass }}'>{{ page }}</a>
+		 	{% else %}
+		 		<a href="/articles/page{{ page }}/" class='paginate-button {{ klass }}'>{{ page }}</a>
+		 	{% endif %}
+		 {% endfor %}
+		 {% if paginator.next_page %}
+		 	<a href="{{ paginator.next_page_path }}" class='paginate-button'>
+		 		<i class='fa fa-chevron-right'></i>
+		 	</a>
+		 {% endif %}
+	</div>
 </div>

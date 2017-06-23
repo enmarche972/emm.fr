@@ -9,6 +9,9 @@ $paginate-square-size: 35px;
 .articles__list {
 	width: 825px;
 	margin: 0 auto;
+	h1 {
+		text-align: center;
+	}
 }
 
 .article__filters {
@@ -29,7 +32,7 @@ $paginate-square-size: 35px;
 
 .article__item {
 	display: flex;
-	border-top: 1px solid #7f7f7f;
+	border-top: 1px solid #D4D4D4;
 	padding-top: 60px;
 	margin-bottom: 31px;
 	img {
@@ -37,21 +40,37 @@ $paginate-square-size: 35px;
 		margin-right: 46px;
 	}
 	h1 {
-		font-size: 19px;
-		color: black;
+		a {
+			font-size: 19px;
+			color: #333;
+			text-decoration: none;
+			transition: 0.4s color linear;
+			&:hover {
+				color: #b7b7b7;
+			}
+		}
+		margin: 0;
+	}
+	h2 {
+		font-family: 'Gill Sans';
+		color: #101010;
+		font-size: 12px;
+		margin: 0;
+		padding: 0;
+		font-weight: normal;
 	}
 	h3 {
 		font-size: 13px;
+		font-family: 'Gill Sans';
+		font-weight: normal;
 		color: #b7b7b7;
 	}
 	span {
 		margin-right: 6px;
 	}
 	a {
+		font-size: 16px;
 		color: #b7b7b7;
-		&:hover {
-			color: gray;
-		}
 	}
 }
 
@@ -70,16 +89,28 @@ $paginate-square-size: 35px;
 	border: 1px solid gray;
 	text-align: center;
 	padding: 15px;
-	&.active {
+	text-decoration: none;
+	color: black;
+	&.active, &:hover {
 		font-weight: bolder;
 		border: 1px solid black;
-	}
-	a {
-		text-decoration: none;
-		color: black;
 	}
 }
 
 .clearfix {
 	clear: both;
+}
+
+.facebook {
+	transition: 0.4s color linear;
+	&:hover {
+		color: #3A589E;
+	}
+}
+
+.twitter {
+	transition: 0.4s color linear;
+	&:hover {
+		color: #00aced;
+	}
 }

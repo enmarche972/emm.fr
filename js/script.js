@@ -9,3 +9,30 @@ function shareFacebook(url) {
 function shareEmail(url, text) {
   location.href = "mailto:?subject=" + text + "&body=" + url;
 }
+
+var facebookLinks = document.getElementsByClassName('click-facebook')
+for(var i=0; i<facebookLinks.length; i++ ) {
+	var elem = facebookLinks[i];
+	var url  = elem.getAttribute('data-url');
+	var site = elem.getAttribute('data-site');
+	elem.onclick = function(e) {
+		e.preventDefault();
+		shareFacebook("https://www.facebook.com/sharer/sharer.php?u=" + site + url + "&amp;src=sdkpreparse");
+	};
+}
+
+var twitterLinks = document.getElementsByClassName('click-twitter')
+for(var i=0; i<twitterLinks.length; i++ ) {
+	(function () {
+		var elem = twitterLinks[i];
+		var url  = elem.getAttribute('data-url');
+		var site = elem.getAttribute('data-site')
+		var title = elem.getAttribute('data-title');
+	
+	
+		elem.onclick = function(e) {
+			e.preventDefault();
+			shareTwitter(url + site, title);
+		}
+	})();
+}
