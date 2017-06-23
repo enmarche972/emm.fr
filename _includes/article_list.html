@@ -18,8 +18,8 @@
 			<h1>{{ post.title }}</h1>
 			<h3>
 				PARTAGEZ: 
-				<a href="#"><span class="fa fa-facebook facebook"></span></a>
-				<a href="#"><span class="fa fa-twitter twitter"></span></a>
+				<a data-site="{{ site.url }}" data-url="{{ post.url }}" class='click-facebook' href="#"><span class="fa fa-facebook facebook"></span></a>
+				<a data-title="{{ post.title }}" data-site="{{ site.url }}" data-url="{{ post.url }}" class='click-twitter' href="#"><span class="fa fa-twitter twitter"></span></a>
 			</h3>
 		</div>
 	</div>
