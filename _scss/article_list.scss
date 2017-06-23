@@ -48,10 +48,8 @@ $paginate-square-size: 35px;
 		margin-right: 6px;
 	}
 	a {
+		font-size: 16px;
 		color: #b7b7b7;
-		&:hover {
-			color: gray;
-		}
 	}
 }
 
@@ -80,4 +78,16 @@ $paginate-square-size: 35px;
 
 .clearfix {
 	clear: both;
+}
+
+.facebook {
+	&:hover {
+		color: #3A589E;
+	}
+}
+
+.twitter {
+	&:hover {
+		color: #00aced;
+	}
 }
