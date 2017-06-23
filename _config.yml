@@ -25,7 +25,7 @@ github_username:  lobos-tudio
 facebook_app_id: enmarche972
 sass:
   sass_dir: _scss
-paginate: 1
+paginate: 12
 paginate_path: "/articles/page:num/"
 
 # Build settings
