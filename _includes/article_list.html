@@ -3,8 +3,9 @@
 	<div class="article__filters">
 		<h3>FILTRES :</h3>
 		<ul>
+			<li><a href="{{site.url}}/articles">All</a></li>
 		{% for my_page in site.pages %}
-			{% if my_page.title and my_page.autogen == nil %}
+			{% if my_page.title and my_page.autogen == nil and my_page.title != 'Articles' %}
 			<li><a href="{{ my_page.url }}">{{ my_page.title | escape }}</a></li>
 			{% endif %}
 		{% endfor %}
