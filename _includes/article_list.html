@@ -3,10 +3,10 @@
 	<div class="article__filters">
 		<h3>FILTRES :</h3>
 		<ul>
-			<li>Toute l'actualité</li>
-			<li>Articles</li>
-			<li>Vidéos</li>
-			<li>Discours</li>
+		{% for category in site.categories %}
+			{% capture category_name %}{{ category | first | capitalize }}{% endcapture %}
+			<li>{{ category_name }}</li>
+		{% endfor %}
 		</ul>
 	</div>
 	{% for post in paginator.posts %}
