@@ -5,7 +5,7 @@
 		<ul>
 		{% for my_page in site.pages %}
 			{% if my_page.title and my_page.autogen == nil %}
-			<li><a href="">{{ my_page.title | escape }}</a></li>
+			<li><a href="{{ my_page.url }}">{{ my_page.title | escape }}</a></li>
 			{% endif %}
 		{% endfor %}
 		</ul>
@@ -29,6 +29,8 @@
 </div>
 <!-- Pagination links -->
 {% if paginator.total_pages > 1 %}
+{% assign raw = page.permalink %}
+{% capture link %}{{ raw | replace: "/"," " | split: " " | first }}{% endcapture %}
 <div class="article__pagination">
 	<div class='pagination-wrap'>
 		 {% if paginator.previous_page %}
@@ -43,9 +45,9 @@
 		 		{% assign klass = 'active' %}
 		 	{% endif %}
 		 	{% if page == 1 %}
-		 		<a href="/articles/" class='paginate-button {{ klass }}'>{{ page }}</a>
+		 		<a href="{{site.url}}/{{link}}" class='paginate-button {{ klass }}'>{{ page }}</a>
 		 	{% else %}
-		 		<a href="/articles/page/{{ page }}/" class='paginate-button {{ klass }}'>{{ page }}</a>
+		 		<a href="{{site.url}}/{{link}}/page/{{ page }}/" class='paginate-button {{ klass }}'>{{ page }}</a>
 		 	{% endif %}
 		 {% endfor %}
 		 {% if paginator.next_page %}

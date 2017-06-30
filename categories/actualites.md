@@ -5,5 +5,5 @@ permalink: /actualites/
 pagination:
   enabled: true
   category: actualites
-  permalink: /:num/
+  permalink: /page/:num/
 ---
