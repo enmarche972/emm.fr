@@ -27,6 +27,7 @@
 	{% endfor %}
 </div>
 <!-- Pagination links -->
+{% if paginator.total_pages > 1 %}
 <div class="article__pagination">
 	<div class='pagination-wrap'>
 		 {% if paginator.previous_page %}
@@ -53,3 +54,4 @@
 		 {% endif %}
 	</div>
 </div>
+{% endif %}
