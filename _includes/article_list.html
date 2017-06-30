@@ -3,9 +3,10 @@
 	<div class="article__filters">
 		<h3>FILTRES :</h3>
 		<ul>
-		{% for category in site.categories %}
-			{% capture category_name %}{{ category | first | capitalize }}{% endcapture %}
-			<li>{{ category_name }}</li>
+		{% for my_page in site.pages %}
+			{% if my_page.title and my_page.autogen == nil %}
+			<li><a href="">{{ my_page.title | escape }}</a></li>
+			{% endif %}
 		{% endfor %}
 		</ul>
 	</div>
@@ -44,7 +45,7 @@
 		 	{% if page == 1 %}
 		 		<a href="/articles/" class='paginate-button {{ klass }}'>{{ page }}</a>
 		 	{% else %}
-		 		<a href="/articles/page{{ page }}/" class='paginate-button {{ klass }}'>{{ page }}</a>
+		 		<a href="/articles/page/{{ page }}/" class='paginate-button {{ klass }}'>{{ page }}</a>
 		 	{% endif %}
 		 {% endfor %}
 		 {% if paginator.next_page %}
