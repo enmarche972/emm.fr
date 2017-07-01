@@ -23,9 +23,16 @@ $paginate-square-size: 35px;
 		li {
 			list-style: none;
 			display: inline-block;
-			font-size: 18px;
-			margin: 0 20px;
-			color: #1d1d1d;
+			a {
+				font-size: 18px;
+				margin: 0 20px;
+				color: #1d1d1d;
+				text-decoration: none;
+				transition: 0.4s color linear;
+				&:hover {
+					color: #555;
+				}
+			}
 		}
 	}
 }
