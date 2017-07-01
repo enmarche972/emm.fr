@@ -13,10 +13,11 @@
 
             <div class="news__share">
                 <span class="news__share-text">PARTAGEZ</span>
-                <a class="news__share-link news__share-link--facebook" href="#news" onclick="shareFacebook('https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ post.url }}&amp;src=sdkpreparse')">
+                <a class="news__share-link news__share-link--facebook" href="https://facebook.com/sharer.php?u={{ site.url }}{{ post.url }}">
                     <i class="fa fa-facebook-square"></i>
                 </a>
-                <a class="news__share-link news__share-link--twitter" href="#news" onclick="shareTwitter('{{ site.url }}{{ post.url }}', '{{ post.title }}')">
+                <a class="news__share-link news__share-link--twitter"
+                href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ post.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}">
                     <i class="fa fa-twitter"></i>
                 </a>
             </div>
@@ -42,5 +43,5 @@
         </div>
 
     {% endif %}
-    
+
 </div>
