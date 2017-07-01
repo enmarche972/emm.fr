@@ -25,8 +25,16 @@ github_username:  lobos-tudio
 facebook_app_id: enmarche972
 sass:
   sass_dir: _scss
-paginate: 12
-paginate_path: "/articles/page:num/"
+# paginate: 12
+# paginate_path: "/articles/page:num/"
+pagination:
+  enabled: true
+  per_page: 1
+  permalink: '/page/:num/'
+  title: 'Articles - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Build settings
 markdown: kramdown
