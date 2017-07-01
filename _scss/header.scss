@@ -8,6 +8,7 @@
   line-height: 45px;
   margin: 50px auto 40px;
 
+
   &__logo {
     position: absolute;
     top: 0;
@@ -15,8 +16,6 @@
     display: inline-block;
     width: 113px;
     height: 43px;
-    background-image: url('../images/logo.svg');
-    background-repeat: no-repeat;
   }
 
   &__nav {
