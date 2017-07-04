@@ -30,7 +30,10 @@ $paginate-square-size: 35px;
 				text-decoration: none;
 				transition: 0.4s color linear;
 				&:hover {
-					color: #555;
+					color: #999;
+				}
+				&.active {
+					font-weight: bolder;
 				}
 			}
 		}
