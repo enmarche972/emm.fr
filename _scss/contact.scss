@@ -5,7 +5,9 @@
 .contact {
   width: 540px;
   margin: 0 auto 120px;
-
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
   &__heading {
     @include heading;
   }

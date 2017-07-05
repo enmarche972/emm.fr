@@ -51,13 +51,34 @@ post_type: normal
 	.clearfix {
 		clear: both;
 	}
+	
+	
+  	@media screen and (max-width: 700px) {
+  		#left-part {
+  			float: none;
+  			width: 100%;
+  		}
+  		
+  		#right-part {
+  			float: none;
+  			width: 100%;
+  		}
+  		
+  		#right-part img {
+  			width: 100%;
+  		}
+  		
+  		.text-bold {
+  			width: 100%;
+  		}
+  	}
 </style>
 <section id="article-body">
 	<div id="left-part">
 		<p>Chères marcheuses, chers marcheurs, Grâce à vous, la Martinique est arrivée première en participation et en votes pour Emanuel Macron dans l’Outre-Mer.</p>
 		<p>Pour pouvoir mettre en oeuvre notre projet en Martinique nous devons maintenant nous structurer.</p>
 		<p class='text-bold'>6 comités ont été créés pour être au plus proche des Martiniquaises et des Martiniquais.</p>
-		<h1>
+		<h1 class="hidden-small">
 			<span class="blue-highlited follow">Follow us</span>
 			<span class="blue-highlited">
 				<i class="fa fa-facebook"></i>
