@@ -72,6 +72,10 @@ post_type: normal
   		#article-body {
   			border-bottom: ;
   		}
+  		
+  		body {
+  			min-width: 290px;
+  		}
   	}
 </style>
 <section id="article-body">
