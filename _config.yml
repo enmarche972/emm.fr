@@ -26,10 +26,9 @@ facebook_app_id: enmarche972
 sass:
   sass_dir: _scss
 # paginate: 12
-# paginate_path: "/articles/page:num/"
 pagination:
   enabled: true
-  per_page: 1
+  per_page: 12
   permalink: '/page/:num/'
   title: 'Articles - page :num'
   limit: 0
