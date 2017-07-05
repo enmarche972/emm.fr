@@ -26,4 +26,5 @@ group :jekyll_plugins do
    gem "jekyll-polyglot"
    gem 'jekyll-compose'
    gem 'jekyll-paginate-v2'
+   gem 'jekyll-seo-tag'
 end
