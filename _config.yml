@@ -47,3 +47,7 @@ parallel_localization: true
 exclude:
   - Gemfile
   - Gemfile.lock
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-paginate-v2
