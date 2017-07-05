@@ -127,3 +127,9 @@ li, ul {
         display: none;
     }
 }
+
+@media screen and (min-width: 700px) {
+    .hidden-big {
+        display: none;
+    }
+}

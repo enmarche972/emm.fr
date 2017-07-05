@@ -57,19 +57,20 @@ post_type: normal
   		#left-part {
   			float: none;
   			width: 100%;
-  		}
-  		
-  		#right-part {
-  			float: none;
-  			width: 100%;
-  		}
-  		
-  		#right-part img {
-  			width: 100%;
+  			padding: 0 15px;
   		}
   		
   		.text-bold {
   			width: 100%;
+  		}
+  		
+  		#left-part img {
+  			display: block;
+  			margin: 77px auto;
+  		}
+  		
+  		#article-body {
+  			border-bottom: ;
   		}
   	}
 </style>
@@ -77,7 +78,9 @@ post_type: normal
 	<div id="left-part">
 		<p>Chères marcheuses, chers marcheurs, Grâce à vous, la Martinique est arrivée première en participation et en votes pour Emanuel Macron dans l’Outre-Mer.</p>
 		<p>Pour pouvoir mettre en oeuvre notre projet en Martinique nous devons maintenant nous structurer.</p>
+		<img class="hidden-big" src="/images/map-article-3-mobile.png" />
 		<p class='text-bold'>6 comités ont été créés pour être au plus proche des Martiniquaises et des Martiniquais.</p>
+		<img class="hidden-big" src="/images/custom-mobile-border.png" />
 		<h1 class="hidden-small">
 			<span class="blue-highlited follow">Follow us</span>
 			<span class="blue-highlited">
@@ -88,8 +91,8 @@ post_type: normal
 			</span>
 		</h1>
 	</div>
-	<div id="right-part">
-		<img src="/images/map-article-3.png" />
+	<div id="right-part" class="hidden-small">
+		<img class="hidden-small" src="/images/map-article-3.png" />
 	</div>
 	<div class="clearfix"></div>
 </section>
