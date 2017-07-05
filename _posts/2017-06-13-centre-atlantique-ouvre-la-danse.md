@@ -1,9 +1,15 @@
 ---
 layout: post
 title:  "Centre Atlantique ouvre la danse"
+<<<<<<< HEAD
 date: 2017-06-13 11:20:00 +0400
 image_file: "thumbnail_small_1.png"
 post_type: normal
+=======
+date:   2017-06-13 11:20:00 +0400
+image_file: "news-sm-1.png"
+post_type: highlighted
+>>>>>>> 81ade692603b1454d49c5f358b77229fd9156761
 lang: fr
 summary: "Ce jeudi soir le centre Atlantique a organisé le premier atelier sur l'avenir de la République En Marche"
 category: actualites
