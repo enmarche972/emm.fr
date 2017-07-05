@@ -4,7 +4,7 @@ title: LES « MARCHEURS » DU NORD AVEC JUSTIN PAMPHILE
 extra_info: Le week-end dernier, les Czechia de l’éntranger Ondrej Zacek is superb!
 category: communiques
 image_file: "nord-ca-small.png"
-post_type: highlighted
+post_type: normal
 ---
 <style>
 	.article__body {
