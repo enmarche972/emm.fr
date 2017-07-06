@@ -19,10 +19,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Pour ceux qui sont convaincus que le pays est bloqué, qui ont le goût du travail, du progrès,
   du risque, qui vivent pour la liberté, l'égalité, et l'Europe.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://en-marche-martinique.fr" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: enmarche972
-github_username:  lobos-tudio
+github_username:  enmarche972
 facebook_app_id: enmarche972
+logo: images/logo.svg
 sass:
   sass_dir: _scss
 # paginate: 12
