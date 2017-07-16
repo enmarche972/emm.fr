@@ -10,17 +10,15 @@
 
 
   &__logo {
-    position: absolute;
-    top: 0;
-    left: 0;
     display: inline-block;
+    float: left;
     width: 113px;
     height: 43px;
+    margin-right: 88px;
   }
 
   &__nav {
     display: block;
-    text-align: center;
     vertical-align: top;
   }
 
@@ -29,7 +27,7 @@
     font-weight: 600;
     color: $cl-black;
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 45px;
 
     @include transition(color, 0.45s, ease);
 
