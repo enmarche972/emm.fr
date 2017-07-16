@@ -1,6 +1,19 @@
 @import "settings";
 @import "tools";
 
+.map_wrapper {
+  position: relative;
+  background: black;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.home__image_map {
+    position: absolute;
+    left: 580px;
+    top: -90px;
+}
+  
 .home {
   width: 1200px;
   margin: 0 auto;
@@ -62,10 +75,11 @@
 
   &__controls {
     margin-top: 150px;
+    float: left;
     width: 60%;
     opacity: 1;
   }
-
+  
   &__heading {
     font-size: 100px;
     font-weight: bold;
