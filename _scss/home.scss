@@ -62,45 +62,38 @@
   }
 
   &__controls {
-    position: absolute;
-    top: 150px;
-    width: 100%;
-    text-align: center;
-
+    margin-top: 150px;
+    width: 60%;
     opacity: 1;
-
-    transition: opacity 0.5s ease-in, top 1s ease-out;
-
-    &--hidden {
-      opacity: 0;
-      top: 600px
-    }
   }
 
   &__heading {
-    font-size: 140px;
+    font-size: 100px;
     font-weight: bold;
     font-style: italic;
     margin: 0;
   }
 
   &__subheading {
-    font-size: 28px;
-    font-weight: 400;
-    font-style: italic;
+    font-size: 30px;
+    font-weight: 300;
     margin: 0;
+    color: #1d1d1d;
+    padding-left: 5px;
+    width: 577px;
   }
 
   &__actions {
     width: 470px;
     height: 55px;
-    margin: 32px auto 155px;
+    margin-top: 22px;
+    margin-bottom: 155px;
   }
 
   &__action {
     float: left;
     display: inline-block;
-    width: 230px;
+    width: 177px;
     height: 55px;
     line-height: 55px;
 
