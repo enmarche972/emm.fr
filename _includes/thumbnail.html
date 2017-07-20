@@ -25,9 +25,7 @@
 
 
     {% endif %}
-
-    {% if post.post_type == "highlighted" %}
-
+    {% if post.post_type == "highlited" %}
         <div class="news__lg-container {% if modulo == "1" %} news__item--left {% endif %} {% if modulo == "0" %} news__item--right {% endif %}">
             <a class="news__lg-image" href="{{ post.url }}">
                 <img src="images/{{ post.image_file }}">
