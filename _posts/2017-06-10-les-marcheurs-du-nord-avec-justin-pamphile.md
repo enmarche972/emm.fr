@@ -99,6 +99,69 @@ post_type: normal
 	    margin: 30px auto;
 	    color: black;
   	}
+  	
+  	@media screen and (max-width: 700px) {
+  		.article__body {
+  			max-width: none;
+  			min-width: 0;
+  			padding: 0 32px;
+  		}
+  		
+  		.article-sub {
+  			font-size: 14px;
+  			height: 28px;
+  		}
+  		
+  		#article-body {
+  			flex-direction: column;
+  		}
+  		
+  		#left-part {
+  			width: 100%;
+  			align-self: center;
+  		}		
+  		
+  		.main-title {
+  			margin-bottom: 0;
+  		}
+  		
+  		#right-part {
+  			margin-top: 34px;
+  			float: none;
+  			width: 100%;
+  		}
+  		
+  		#right-part img {
+  			width: 80%;
+  		}
+  		
+  		.highlited {
+  			margin: 0;
+  			margin-top: 35px;
+  			width: 80%;
+  			font-size: 18px;
+  			text-align: left;
+  			font-style: none;
+  		}
+  		
+  		.highlited-date {
+  			width: 100%;
+  			font-size: 18px;
+  		}
+  		
+  		.article-text {
+  			margin: 0;
+  			font-size: 16px;
+  			width: 100%;
+  			text-align: left;
+  			margin-bottom: 30px;
+  			font-weight: 300;
+  		}
+  		
+  		body {
+  			min-width: 292px;
+  		}
+  	}
 </style>
 <section id="article-body">
 	<div id='left-part'>
