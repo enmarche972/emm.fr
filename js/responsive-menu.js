@@ -1,4 +1,3 @@
-	alert('Loaded!');
 	
 	if( 'ontouchstart' in window ){ var click = 'touchstart'; }
 	else { var click = 'click'; }
