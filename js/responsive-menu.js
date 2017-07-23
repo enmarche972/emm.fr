@@ -1,10 +1,8 @@
-	
 	if( 'ontouchstart' in window ){ var click = 'touchstart'; }
 	else { var click = 'click'; }
 
 
-	$('div.burger').on(click, function(){
-
+	$('div.burger').on(click, function() {
 			if( !$(this).hasClass('open') ){ openMenu(); } 
 			else { closeMenu(); }
 
