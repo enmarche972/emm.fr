@@ -103,9 +103,12 @@ category: actualites
     
     .right-part img,
     .mobile-image img {
-      position: relative;
       width: 100vw;
-      left: calc(-50vw + 50%);
+      margin-left: -50px;
+    }
+    
+    .pull-more-right {
+      margin-bottom: 35px;
     }
     
     .highlited {
