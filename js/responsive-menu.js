@@ -1,13 +1,6 @@
 	if( 'ontouchstart' in window ){ var click = 'touchstart'; }
 	else { var click = 'click'; }
-
-
-	$('div.burger').on(click, function() {
-			if( !$(this).hasClass('open') ){ openMenu(); } 
-			else { closeMenu(); }
-
-	});
-
+	
 	function openMenu(){
 		
 		$('div.circle').addClass('expand');
@@ -48,3 +41,17 @@
 		}, 70);													
 		
 	}
+	
+$(document).ready(function() {
+	$('.burger').on("click", function() {
+			console.log("Clicked!");
+			if( !$(this).hasClass('open') ){ 
+				openMenu(); 
+			} 
+			else {
+				closeMenu(); 
+			}
+
+	});
+});
+	
