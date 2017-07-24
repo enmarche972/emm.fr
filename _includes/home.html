@@ -1,6 +1,6 @@
 <section class="home" id="home">
-  <div class="home__map home__map--gray home__map--visible"></div>
-    <div class="home__map home__map--color">
+  <div class="home__map home__map--gray home__map--visible hidden-small"></div>
+    <div class="home__map home__map--color hidden-small">
       <div class="home__caption home__caption--green home__caption--right">
         <div>
           <b>En Marche</b> Martinique<br>
@@ -43,7 +43,9 @@
             </div>
             <div class="home__caption-circle"></div>
         </div>
+        <div class="hidden-small">
             {% include map.html %}
+        </div>
   </div>
   <div class="home__controls">
         <h1 class="home__heading">En Marche !</h1>
