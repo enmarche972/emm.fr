@@ -146,10 +146,20 @@
     width: 40px;
     position: absolute;
     top: 11px;
-    right: 21px;
+    left: 21px;
     cursor: pointer;
     z-index: 9999;
   }
+
+  .hidden-big .header__logo {
+    overflow: hidden;
+    height: 8em;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 12px;
+  }
+
     div.x,
     div.y,
     div.z {

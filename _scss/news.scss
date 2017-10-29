@@ -30,6 +30,11 @@
     @include subheading;
 
     margin-bottom: 70px;
+
+    @media screen and(max-width: 700px) {
+      font-size: 26px;    
+    }
+
   }
 
   &__row {
