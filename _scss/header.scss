@@ -346,10 +346,16 @@
   }
 
   a {
+    display: block;
     text-decoration: none;
     color: #fff;
     font-size: 30px;
     line-height: 60px;
+    transition: all 0.45s ease 0s;
+    -webkittransition: all 0.45s ease 0s;
+    &:hover {
+      color: $cl-gray;
+    }
   }
 
   ul {
@@ -358,7 +364,7 @@
     top: 40px;
   }
 
-  .close{
+  .close-mobile-menu {
     position: absolute;
     color: #fff;
     top: 6px;
@@ -367,6 +373,18 @@
     width: 40px;
     height: 40px;
     overflow: hidden;
+    &:hover {
+      cursor: pointer;
+      .close {
+        &::before, &::after {
+          background: $cl-black;
+        }
+        background-color:$cl-black; 
+      }
+    }
+  }
+
+  .close {
     &:hover {
       &::before, &::after {
         cursor: pointer;
@@ -415,10 +433,15 @@
 .burger-icon {
   position: relative;
   top: 11px;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
   //right: 21px;
   cursor: pointer;
   &.fa {
     font-size: 32px;
+  }
+  &:hover {
+    color: $cl-dark-gray;
   }
 }
 

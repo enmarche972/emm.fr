@@ -286,14 +286,17 @@
 
   .news__sm-title {
     display: block;
-    padding: .5em 1em;
+    padding: 8px 16px;
     font-size: 20px;
     font-weight: bold;
+    margin: 0;
   }
 
   .news__share {
     display: block;
-    padding: .5em 1em;
+    padding: 8px 16px;
+    margin-bottom: 26px;
+    font-size: 16px;
   }
 
 }
