@@ -40,6 +40,8 @@ pagination:
 markdown: kramdown
 github: [metadata]
 
+repository: "chalatz/en-marche-martinique.fr"
+
 languages: ["fr", "en", "ht"]
 default_lang: "fr"
 exclude_from_localization: ["javascript", "images", "css"]
