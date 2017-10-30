@@ -131,13 +131,13 @@ li, ul {
     margin-right: 10px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1000px) {
     .hidden-small {
         display: none;
     }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1000px) {
     .hidden-big {
         display: none;
     }

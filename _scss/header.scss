@@ -3,7 +3,8 @@
 
 .header {
   position: relative;
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   height: 45px;
   line-height: 45px;
   margin: 50px auto 40px;
@@ -108,7 +109,7 @@
   }
 }
 
-@media screen and(max-width: 700px) {
+@media screen and(max-width: 1000px) {
     * { margin: 0px; padding: 0px; }
   #view-code{
     color:#4183d7;
