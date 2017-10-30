@@ -11,10 +11,9 @@
 
   &__logo {
     display: inline-block;
-    float: left;
     width: 113px;
     height: 43px;
-    margin-right: 88px;
+    //margin-right: 88px;
   }
 
   &__nav {
@@ -154,8 +153,8 @@
   .hidden-big .header__logo {
     overflow: hidden;
     height: 8em;
-    width: 100%;
-    text-align: center;
+    //width: 100%;
+    //text-align: center;
     position: relative;
     top: 12px;
   }
@@ -332,7 +331,7 @@
   top: 0;
   left: -$mobile-memu-width;
   background: $cl-pink;
-  width: 320px;
+  width: $mobile-memu-width;
   height: 500px;
   z-index: 9999;
   padding: 1.5em .5em .5em 1.5em;
@@ -404,4 +403,51 @@
     left: 0;
   }
 
+}
+
+.mobile-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 18px;
+}
+
+.open-social,
+.burger-icon {
+  position: relative;
+  top: 11px;
+  //right: 21px;
+  cursor: pointer;
+  &.fa {
+    font-size: 32px;
+  }
+}
+
+.header__socials--mobile {
+  $mobile-socials-height: 80px;
+  position: relative;
+  display: none;
+  //top: -$mobile-socials-height;
+  //display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  .header__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-grow: 1;
+    border-color: $cl-black;
+    height: $mobile-socials-height;
+    font-size: 48px;
+  }
+}
+
+.mobile-socials-open {
+  display: flex;
+  top: 0;
 }

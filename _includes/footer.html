@@ -13,7 +13,7 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
-  <!-- <script src="/js/responsive-menu.js"></script> -->
+
 <script>
     $(document).ready(function() {
 
@@ -22,11 +22,15 @@
         }, 1200);
 
         $('#burger').on('click', function(){
-            $('#mobile-menu').addClass('mobile-menu-open')
+            $('#mobile-menu').addClass('mobile-menu-open');
         });
 
-        $('#close').on('click', function(){
-            $('#mobile-menu').removeClass('mobile-menu-open')
+        $('#close-mobile-menu').on('click', function(){
+            $('#mobile-menu').removeClass('mobile-menu-open');
+        });
+
+        $('#open-social').on('click', function(){
+            $('#header__socials--mobile').addClass('mobile-socials-open');
         });
 
     });
