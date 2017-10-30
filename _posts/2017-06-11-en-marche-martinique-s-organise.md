@@ -54,7 +54,7 @@ post_type: highlited
 	}
 
 
-  	@media screen and (max-width: 700px) {
+  	@media screen and (max-width: 1000px) {
   		#left-part {
   			float: none;
   			width: 100%;
@@ -85,7 +85,6 @@ post_type: highlited
 		<p>Pour pouvoir mettre en oeuvre notre projet en Martinique nous devons maintenant nous structurer.</p>
 		<img class="hidden-big" src="/images/map-article-3-mobile.png" />
 		<p class='text-bold'>6 comités ont été créés pour être au plus proche des Martiniquaises et des Martiniquais.</p>
-		<img class="hidden-big" src="/images/custom-mobile-border.png" />
 		<h1 class="hidden-small">
 			<span class="blue-highlited follow">Follow us</span>
 			<span class="blue-highlited">
