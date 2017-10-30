@@ -10,6 +10,14 @@
   }
 }
 
+.img-block {
+  text-align: center;
+  padding: 0 12px 12px;
+  img {
+    max-width: 100%;
+  }
+}
+
 .home {
   width: 1200px;
   height: 700px;
