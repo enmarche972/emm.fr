@@ -448,9 +448,8 @@
 .header__socials--mobile {
   $mobile-socials-height: 80px;
   position: relative;
-  display: none;
-  //top: -$mobile-socials-height;
-  //display: flex;
+  display: flex;
+  margin-top: -$mobile-socials-height;
   justify-content: space-between;
   align-content: stretch;
   width: 100%;
@@ -471,6 +470,5 @@
 }
 
 .mobile-socials-open {
-  display: flex;
-  //top: 0;
+  margin-top: 0;
 }
