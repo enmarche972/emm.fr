@@ -13,12 +13,22 @@
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"
   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
-  <script src="/js/responsive-menu.js"></script>
+  <!-- <script src="/js/responsive-menu.js"></script> -->
 <script>
     $(document).ready(function() {
+
         setTimeout(function() {
             showMap();
         }, 1200);
+
+        $('#burger').on('click', function(){
+            $('#mobile-menu').addClass('mobile-menu-open')
+        });
+
+        $('#close').on('click', function(){
+            $('#mobile-menu').removeClass('mobile-menu-open')
+        });
+
     });
 
     var showMapButton = document.getElementById('showMapButton');
@@ -32,6 +42,6 @@
     }
 </script>
 
-<script src="/js/script.js" async defer></script>
+<!-- <script src="/js/script.js" async defer></script> -->
 <script src="/js/smooth-scroll.min.js" async defer></script>
 <script src="/js/script.js"></script>
