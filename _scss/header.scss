@@ -77,6 +77,46 @@
     }
   }
 
+  &__lang-select-big {
+    display: inline-block;
+    width: 90px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 12px;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid $cl-gray;
+    background-repeat: no-repeat;
+    background-position: center;
+    select {
+      color: $cl-black;
+      font-size: 28px;
+      border: none;
+      font-weight: 700;
+    }
+  }
+
+  &__lang-select-small {
+    position: absolute;
+    bottom: 26px;
+    line-height: 45px;
+    text-align: center;
+    vertical-align: top;
+    border: 2px solid $cl-dark-gray;
+    padding: 2px 0;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 190px;
+    select {
+      color: $cl-black;
+      background-color: transparent;
+      font-size: 28px;
+      border: none;
+      font-weight: 700;
+    }
+  }  
+
   &__origin {
     position: absolute;
     top: 0;
