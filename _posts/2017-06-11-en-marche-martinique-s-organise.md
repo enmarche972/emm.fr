@@ -54,7 +54,7 @@ post_type: highlited
 	}
 
 
-  	@media screen and (max-width: 700px) {
+  	@media screen and (max-width: 1000px) {
   		#left-part {
   			float: none;
   			width: 100%;

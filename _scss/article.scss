@@ -19,7 +19,7 @@ li, ul {
     letter-spacing: -0.5px;
     line-height: 38px;
     color: #333;
-    @media screen and(max-width: 700px) {
+    @media screen and(max-width: 1000px) {
         font-size: 26px;
         color: black;
     }
@@ -45,7 +45,7 @@ li, ul {
     max-width: 700px;
     width: 90%;
     margin: 90px auto 30px;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
         margin: 10px auto 30px;
         padding: 0 !important;
         #left-part,
@@ -113,7 +113,7 @@ li, ul {
 .btn--social {
     font-family: Roboto,Helvetica,sans-serif;
     font-size: 12px;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1000px) {
         width: 30px;
         padding-left: 26px;
         margin-right: 10px;

@@ -100,7 +100,7 @@ post_type: normal
 	    color: black;
   	}
   	
-  	@media screen and (max-width: 700px) {
+  	@media screen and (max-width: 1000px) {
   		.article__body {
   			max-width: none;
   			min-width: 0;
