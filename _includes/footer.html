@@ -29,8 +29,10 @@
             $('#mobile-menu').removeClass('mobile-menu-open');
         });
 
-        $('#open-social').on('click', function(){
-            $('#header__socials--mobile').addClass('mobile-socials-open');
+        $('#handle-social').on('click', function(){
+            $('#header__socials--mobile').toggleClass('mobile-socials-open');
+            $(this).toggleClass('fa-times fa-share');
+
         });
 
     });
