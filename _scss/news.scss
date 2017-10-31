@@ -75,6 +75,7 @@
         height: 350px;
         @media screen and(max-width: 1000px) {
           width: 100%;
+          height: 100%;
         }
         @include transition(opacity, .45s);
       }
@@ -253,6 +254,7 @@
 
   &__lg-container {
     margin-right: 16px;
+    overflow: hidden;
   }
 
   &__item--left {
