@@ -36,3 +36,21 @@ for(var i=0; i<twitterLinks.length; i++ ) {
 		}
 	})();
 }
+
+$(document).ready(function() {
+
+		$('#burger').on('click', function(){
+				$('#mobile-menu').addClass('mobile-menu-open');
+		});
+
+		$('#close-mobile-menu').on('click', function(){
+				$('#mobile-menu').removeClass('mobile-menu-open');
+		});
+
+		$('#handle-social').on('click', function(){
+				$('#header__socials--mobile').toggleClass('mobile-socials-open');
+				$(this).toggleClass('fa-times fa-share');
+
+		});
+
+});

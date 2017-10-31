@@ -1,17 +1,17 @@
 <section class="news" id="news">
 
-    <div class="news__subheading">Les dernières actualités de La République En Marche !</div>
+    <div class="news__subheading">Les dernières actualités d'En Marche Martinique !</div>
     <!--
         Collection 0 -> normal posts
         Collection 1 -> highlited posts
      -->
-    {% assign collection = site.posts | sort: "date" | group_by: "post_type" %}
+    {% assign collection = site.posts | group_by: "post_type" | sort: "date" %}
     {% assign rows = 2 %}
     {% assign per_row = 3 %}
     {% assign last_normal = 0 %}
     {% assign last_highlited = 0%}
-    
-    {% for idx in (1..rows) %} 
+
+    {% for idx in (1..rows) %}
         {% assign modulo = idx | modulo: 2 %}
         {% if modulo == 1 %}
             <div class="news-row">
@@ -30,4 +30,11 @@
             {% endfor %}
         </div>
     {% endfor %}
+
+    <div class="news__more">
+        <a href="" class="news__more-link">
+            More News
+        </a>
+    </div>
+
 </section>

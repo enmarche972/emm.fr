@@ -1,41 +1,39 @@
 <footer class="footer">
     <div class="footer__container">
         <div class="footer__logo"></div>
-
         <div class="footer__links">
             <a class="footer__link" href="mailto:contact@en-marche-martinique.fr">contact@en-marche-martinique.fr</a>
-            <div class="footer__divider"></div>
+            <div class="footer__divider hidden-small"></div>
             <a class="footer__link">
                 © 2017 En Marche Martinique
             </a>
         </div>
     </div>
 </footer>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
 
 <script>
+    $(document).ready(function() {
+
+        setTimeout(function() {
+            showMap();
+        }, 1200);
+
+    });
+
     var showMapButton = document.getElementById('showMapButton');
     var hideMapButton = document.getElementById('hideMapButton');
     var mapGray = document.getElementsByClassName('home__map--gray')[0];
     var mapColor = document.getElementsByClassName('home__map--color')[0];
     var controls = document.getElementsByClassName('home__controls')[0];
-
-    showMapButton.addEventListener('click', showMap);
-    hideMapButton.addEventListener('click', hideMap);
-
     function showMap() {
-        mapGray.className = 'home__map home__map--gray';
-        mapColor.className = 'home__map home__map--color home__map--visible';
-        controls.className = 'home__controls home__controls--hidden';
-        hideMapButton.className = 'home__action home__action--close';
-    }
-
-    function hideMap() {
-        mapGray.className = 'home__map home__map--gray home__map--visible';
-        mapColor.className = 'home__map home__map--color';
-        controls.className = 'home__controls';
-        hideMapButton.className = 'home__action home__action--close home__action--hidden';
+        mapGray.className = 'home__map home__map--gray hidden-small';
+        mapColor.className = 'home__map home__map--color home__map--visible hidden-small';
     }
 </script>
 
-<script src="/js/script.js" async defer></script>
+<!-- <script src="/js/script.js" async defer></script> -->
 <script src="/js/smooth-scroll.min.js" async defer></script>
+<script src="/js/script.js"></script>

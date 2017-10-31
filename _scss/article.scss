@@ -13,12 +13,16 @@ li, ul {
 .article__heading {
     max-width: 700px;
     width: 90%;
-    margin: 100px auto 30px;
+    margin: 65px auto 30px;
     font-weight: 700;
     font-size: 34px;
     letter-spacing: -0.5px;
     line-height: 38px;
     color: #333;
+    @media screen and(max-width: 1000px) {
+        font-size: 26px;
+        color: black;
+    }
 }
 
 .article__summary {
@@ -41,12 +45,25 @@ li, ul {
     max-width: 700px;
     width: 90%;
     margin: 90px auto 30px;
+    @media screen and (max-width: 1000px) {
+        margin: 10px auto 30px;
+        padding: 0 !important;
+        #left-part,
+        #right-part {
+            padding: 0 !important;
+            display: block;
+            img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 .article__social {
     max-width: 700px;
     width: 90%;
-    margin: 0 auto;
+    margin: 0 auto 22px;
 }
 
 .article__social, .article__social .btn {
@@ -96,6 +113,11 @@ li, ul {
 .btn--social {
     font-family: Roboto,Helvetica,sans-serif;
     font-size: 12px;
+    @media screen and (max-width: 1000px) {
+        width: 30px;
+        padding-left: 26px;
+        margin-right: 10px;
+    }
 }
 
 .btn--email {
@@ -107,4 +129,16 @@ li, ul {
 .article__social .fa {
     font-size: 20px;
     margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .hidden-small {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .hidden-big {
+        display: none;
+    }
 }
