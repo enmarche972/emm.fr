@@ -42,7 +42,7 @@ li, ul {
     letter-spacing: 0.3px;
     line-height: 1.62;
     color: #333;
-    max-width: 700px;
+    max-width: 1045px;
     width: 90%;
     margin: 90px auto 30px;
     @media screen and (max-width: 1000px) {
@@ -141,4 +141,27 @@ li, ul {
     .hidden-big {
         display: none;
     }
+}
+
+.article {
+
+    .comite {
+        font-family: "Gill Sans";
+        margin-bottom: 40px;
+        font-size: 36px;
+        font-weight: 700;
+        font-style: italic;
+        padding: 0;
+    }
+
+    .comite-line {
+        display: inline;
+        padding: 15px 30px;
+
+        &.pink {
+            background-color: #e8457e;
+            color: #f1fa53;
+        }
+    }
+
 }

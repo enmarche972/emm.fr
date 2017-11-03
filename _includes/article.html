@@ -25,6 +25,21 @@
     </ul>
 
     <div class="article__body">
-    {{ content }}
+
+        {% if page.heading_line_1 %}
+            <div class="article__sec-heading" style="color: {{ page.heading_font_color }};">
+                <div class="article__sec-heading-line" style="background-color: {{ page.heading_bg_color }};">
+                    {{ page.heading_line_1 }}
+                </div>
+                {% if page.heading_line_1 %}
+                <div class="article__sec-heading-line" style="background-color: {{ page.heading_bg_color }};">
+                    <br>{{ page.heading_line_2 }}
+                </div>
+                {% endif %}
+            </div>
+
+        {% endif %}
+
+        {{ content }}
     </div>
 </section>
