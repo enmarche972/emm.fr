@@ -145,6 +145,23 @@ li, ul {
 
 .article {
 
+    img {
+        display: block;
+        margin: 12px auto;
+    }
+
+    blockquote {
+        color: $cl-dark-gray;
+    }
+
+    a {
+        color: $cl-black;
+        text-decoration: underline;
+        &:hover {
+            color: $cl-dark-gray;
+        }
+    }
+
     .highlight {
         font-family: "Gill Sans";
         margin-bottom: 40px;
