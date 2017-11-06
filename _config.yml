@@ -43,7 +43,9 @@ github: [metadata]
 languages: ["fr", "en", "ht"]
 default_lang: "fr"
 exclude_from_localization: ["javascript", "images", "css"]
-parallel_localization: true
+parallel_localization: false
+
+show_langs_selects: true
 
 exclude:
   - Gemfile
