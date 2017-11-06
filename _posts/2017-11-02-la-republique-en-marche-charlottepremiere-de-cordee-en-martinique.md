@@ -1,4 +1,5 @@
 ---
+layout: post
 title: 'La République En Marche : Charlotte…première de cordée en Martinique'
 category: media
 image_file: "moifemmes.png"

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Charlotte Gressier est le visage de La République en Marche en Martinique
 category: media
 image_file: "nouveau-visage-emm.jpeg"

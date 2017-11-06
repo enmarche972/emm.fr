@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "La République en Marche a nommé ses nouveaux référents Outre-mer"
 image_file: "outremer360-video-ref.jpg"
 category: media

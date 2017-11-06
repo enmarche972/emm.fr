@@ -24,15 +24,11 @@
         <a class="header__social header__social--twitter" href="https://twitter.com/enmarche972" target="_blank">
             <i class="fa fa-twitter"></i>
         </a>
-        <!--
-        <div class="lang-select header__lang-select-big">
-            <select class="" name="" id="">
-                <option value="kr">KR</option>
-                <option value="fr">FR</option>
-                <option value="en">EN</option>
-            </select>
-        </div>
-      -->
+        
+        {% if site.show_langs_selects %}
+            {% include header_langs_select.html %}
+        {% endif %}
+
     </div>
 </header>
 
@@ -54,11 +50,6 @@
     <div class="mobile-wrapper">
 
         <i id="burger" class="fa fa-bars burger-icon" aria-hidden="true"></i>
-        <!-- <div id="burger" class="burger">
-            <div class="x"></div>
-            <div class="y"></div>
-            <div class="z"></div>
-        </div> -->
 
         <a href="/" title="Home Page" id="logo" class="header__logo">
             <img src="/images/logo.svg" alt="En Marche Martinique" />
@@ -82,13 +73,9 @@
             <li><a href="#contactus">Contactez nous</a></li>
         </ul>
 
-        <div class="lang-select header__lang-select-small">
-            <select class="" name="" id="">
-                <option value="kr">Kreyol</option>
-                <option value="fr">French</option>
-                <option value="en">English</option>
-            </select>
-        </div>
+        {% if site.show_langs_selects %}
+            {% include mobile_langs_select.html %}
+        {% endif %}
 
     </div>
 
