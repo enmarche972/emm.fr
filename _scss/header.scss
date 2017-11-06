@@ -99,12 +99,13 @@
       top: 0px;
       left: 0px;
       color: #1d1d1d;
-      font-size: 24px;
+      font-size: 20px;
       border: none;
       font-weight: 700;
       width: 86px;
       height: 41px;
       background: transparent;
+      padding: 2px;
       padding-left: 10px;
     }
   }
@@ -112,9 +113,9 @@
   &__lang-arrow {
     position: absolute;
     top: 0;
-    right: 3px;
+    right: 10px;
     z-index: 99;
-    font-size: 28px;
+    font-size: 23px;
     pointer-events: none;
   }
 
