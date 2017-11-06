@@ -43,7 +43,7 @@ li, ul {
     line-height: 1.62;
     color: #333;
     max-width: 1045px;
-    width: 90%;
+    width: 70%;
     margin: 90px auto 30px;
     @media screen and (max-width: 1000px) {
         margin: 10px auto 30px;
@@ -145,23 +145,44 @@ li, ul {
 
 .article {
 
-    .comite {
+    .highlight {
         font-family: "Gill Sans";
         margin-bottom: 40px;
         font-size: 36px;
         font-weight: 700;
-        font-style: italic;
         padding: 0;
     }
 
-    .comite-line {
-        display: inline;
-        padding: 15px 30px;
+    .highlight-line {
+        display: inline-block;
+        padding: 0 30px;
 
         &.pink {
             background-color: #e8457e;
             color: #f1fa53;
         }
+
+        &.blue {
+            background-color: #00b1fe;
+            color: #fff;
+        }
+
+        &.green {
+            background-color: #40f2b6;
+            color: #000;
+        }
+    }
+
+    .smaller-text-size {
+        font-size: 18px;
+    }
+
+    .big-text-size {
+        font-size: 28px;
+    }
+
+    .bigger-text-size {
+        font-size: 42px;
     }
 
     img {
@@ -191,6 +212,43 @@ li, ul {
         text-align: center;
         width: 757px;
         margin: 30px auto;
+    }
+
+    .text-bold {
+        font-size: 25px;
+        font-weight: bolder;
+        color: black;
+        line-height: 35px;
+        margin-top: 47px;
+        margin-bottom: 67px;
+    }
+
+    @media screen and(max-width: 1000px) {
+        .article__body {
+            width: 90%;
+            padding: 0;
+            margin: 0 auto;
+        }
+        .row {
+            margin: 0;
+            padding: 0;
+        }
+
+        .left-col,
+        .right-col {
+            width: 100%;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+        }
+
+        img {
+            display: block;
+            margin: 18px auto;
+        }
+        p {
+            padding: 16px 0;
+        }
     }
 
 }
