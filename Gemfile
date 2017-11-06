@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby '2.4.1'
+#ruby '2.4.1'
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -22,11 +22,12 @@ gem "jekyll", "3.3.1"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-archives'
-   gem "github-pages"
+   #gem "github-pages"
    gem "jekyll-polyglot"
    gem 'jekyll-compose'
    gem 'jekyll-paginate-v2'
    gem 'jekyll-seo-tag'
+   gem 'jekyll-admin'
 end
 
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
