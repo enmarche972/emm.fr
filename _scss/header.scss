@@ -96,14 +96,16 @@
       -moz-appearance: none;
       appearance: none;
       position: absolute;
-      top: 3px;
-      left: 5px;
+      top: 0px;
+      left: 0px;
       color: #1d1d1d;
-      font-size: 28px;
+      font-size: 24px;
       border: none;
       font-weight: 700;
-      width: 78px;
-      height: 37px;
+      width: 86px;
+      height: 41px;
+      background: transparent;
+      padding-left: 10px;
     }
   }
 
