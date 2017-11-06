@@ -269,10 +269,9 @@
 
 @media screen and(max-width: 1000px) {
 
-
-.news-row.reverse {
-    flex-direction: column-reverse;
-}
+  .news-row.reverse {
+      flex-direction: column-reverse;
+  }
 
   .news__sm-container,
   .news__lg-container{
