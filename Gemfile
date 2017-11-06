@@ -22,7 +22,7 @@ gem "jekyll", "3.3.1"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
    gem 'jekyll-archives'
-   #gem "github-pages"
+   # gem "github-pages"
    gem "jekyll-polyglot"
    gem 'jekyll-compose'
    gem 'jekyll-paginate-v2'
