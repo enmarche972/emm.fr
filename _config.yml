@@ -47,6 +47,8 @@ parallel_localization: false
 
 show_langs_selects: true
 
+permalink: pretty
+
 exclude:
   - Gemfile
   - Gemfile.lock
