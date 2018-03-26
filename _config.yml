@@ -5,6 +5,7 @@ collections:
   posts:
     title: Posts
     output: true
+    Field name: file_name
   uploads:
     title: Uploads
     output: true
