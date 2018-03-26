@@ -13,14 +13,19 @@
 				{% assign category_name = category | first %}
 				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/' %}
 				<li>
-					<a class="{% if page.permalink == category_permalink %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
+					<a class="{% if page.category == category_name %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
 				</li>
 			{% endfor %}
 
 		</ul>
 	</div>
-	{% for post in site.posts %}
-	{{ category_name}}
+	{{ page.permalink }}
+	{% if page.permalink == "/articles/index.html" %}
+	{% assign posts = site.posts %}
+	{% else %}
+	{% assign posts = site.categories[page.category] %}
+	{% endif %}
+	{% for post in posts %}
 	<div class="article__item">
 		<div class="article-item-thumb">
 			<img src="/images/{{ post.image_file }}" />
