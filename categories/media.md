@@ -1,10 +1,10 @@
 ---
-title: Actualites
-permalink: "/actualites/"
+title: Media
+permalink: "/media/"
 layout: articles
 pagination:
   enabled: true
-  category: actualites
+  category: media
   permalink: "/page/:num/"
 ---
 

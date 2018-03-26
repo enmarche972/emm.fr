@@ -26,19 +26,29 @@
 -->
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include article_head.html %}
-
+  {% include head.html %}
+<style media="screen">
+  .center-div
+  {
+    margin: 0 auto;
+    width: 600px;
+  }
+</style>
   <body>
+
     {% include facebook.html %}
 
     {% include header.html %}
 
-    {% include article.html %}
+    <div class="center-div">
+        {{ content }}
+    </div>
 
     {% include contact.html %}
 
-    {% include footer.html %}
-
+    <div class="hidden-small">
+      {% include footer.html %}
+    </div>
   </body>
 
 </html>
