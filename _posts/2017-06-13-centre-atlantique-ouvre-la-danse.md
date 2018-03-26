@@ -1,8 +1,7 @@
 ---
 title: Centre Atlantique ouvre la danse
 date: 2017-06-13 07:20:00 Z
-categories:
-- actualites
+categories: Actualites
 layout: post
 image_file: thumbnail_small_1.png
 post_type: normal
