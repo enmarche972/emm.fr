@@ -4,7 +4,7 @@ date: 2017-06-09 07:20:00 Z
 categories: Communiques
 layout: post
 extra_info: Les « marcheurs » du Nord appelle à voter Justin PAMPHILE
-image_file: nord-ca-small.png
+image_file: "/uploads/nord-ca-small.png"
 post_type: normal
 ---
 

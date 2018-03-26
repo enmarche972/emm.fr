@@ -4,7 +4,7 @@ date: 2017-06-11 07:20:00 Z
 categories: Actualites
 layout: post
 extra_info: ENM s'orgranise en 6 comités
-image_file: article_big-2.png
+image_file: "/uploads/article_big-2.png"
 post_type: highlited
 ---
 

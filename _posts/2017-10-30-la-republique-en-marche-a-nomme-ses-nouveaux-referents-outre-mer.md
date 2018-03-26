@@ -3,7 +3,7 @@ title: La République en Marche a nommé ses nouveaux référents Outre-mer
 date: 2017-10-30 00:00:00 Z
 categories: Media
 layout: post
-image_file: outremer360-video-ref.jpg
+image_file: "/uploads/outremer360-video-ref.jpg"
 post_type: normal
 ---
 
