@@ -19,8 +19,8 @@
 
 		</ul>
 	</div>
-	{{ page.permalink }}
-	{% if page.permalink == "/articles/index.html" %}
+	{{ page.category }}
+	{% if page.category == "all" %}
 	{% assign posts = site.posts %}
 	{% else %}
 	{% assign posts = site.categories[page.category] %}
