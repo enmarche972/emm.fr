@@ -1,7 +1,8 @@
 ---
 title: Entretien avec Charlotte Gressier sur ATV
 date: 2017-10-30 00:00:00 Z
-categories: Media
+categories:
+- Media
 summary: 'Retrouvez l''interview de Charlotte Gressier sur ATV :'
 layout: post
 image_file: "/uploads/itw-atv.png"
