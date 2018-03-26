@@ -24,7 +24,7 @@
 	{% else %}
 	{% assign posts = site.categories[page.category] %}
 	{% endif %}
-	{% for post in posts %}
+	{% for post in site.posts %}
 	<div class="article__item">
 		<div class="article-item-thumb">
 			<img src="/images/{{ post.image_file }}" />
