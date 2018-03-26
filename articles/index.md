@@ -5,3 +5,4 @@ category: Tous
 pagination:
   enabled: true
 ---
+
