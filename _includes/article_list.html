@@ -13,13 +13,6 @@
 				{% assign category_name = category | first %}
 				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/index.html' %}
 				<li>
-<<<<<<< HEAD
-					kbkbkjbdfkjjhbjjjjjjjjjjjjjhjbjhjhbjhbjbjhbbbbbbbbbbjhbjhbjbjhbjb
-					{{ category_name }}
-					{{ page.permalink }}
-					{{ category_permalink }}
-=======
->>>>>>> 7cdc8086fab2a896e5f13c3c4ba8cabafd729c46
 					<a class="{% if page.permalink == category_permalink %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
 				</li>
 			{% endfor %}
