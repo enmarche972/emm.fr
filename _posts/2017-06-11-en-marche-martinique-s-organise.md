@@ -1,8 +1,7 @@
 ---
 title: En Marche ! Martinique s'organise
 date: 2017-06-11 07:20:00 Z
-categories:
-- actualites
+categories: actualites
 layout: post
 extra_info: ENM s'orgranise en 6 comités
 image_file: article_big-2.png
