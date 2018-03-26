@@ -14,6 +14,7 @@
 				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/index.html' %}
 				<li>
 					{{ category_permalink}}
+					1251
 					{{ page.permalink}}
 					<a class="{% if page.permalink == category_permalink %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
 				</li>
