@@ -1,8 +1,7 @@
 ---
 title: Articles
 layout: articles
-category: all
+category: Tous
 pagination:
   enabled: true
 ---
-

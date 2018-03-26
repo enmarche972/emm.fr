@@ -1,5 +1,5 @@
 ---
-title: Communiques
+title: Communiqués
 permalink: "/communiques/"
 layout: articles
 category: communiques
@@ -8,4 +8,3 @@ pagination:
   category: communiques
   permalink: "/page/:num/"
 ---
-

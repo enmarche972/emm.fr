@@ -1,5 +1,5 @@
 ---
-title: Actualites
+title: Actualités
 permalink: "/actualites/"
 layout: articles
 category: actualites
@@ -8,4 +8,3 @@ pagination:
   category: actualites
   permalink: "/page/:num/"
 ---
-

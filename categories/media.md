@@ -1,5 +1,5 @@
 ---
-title: Media
+title: Médias
 permalink: "/media/"
 layout: articles
 category: media
@@ -8,4 +8,3 @@ pagination:
   category: media
   permalink: "/page/:num/"
 ---
-
