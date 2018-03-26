@@ -13,9 +13,6 @@
 				{% assign category_name = category | first %}
 				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/' %}
 				<li>
-					{{ category_permalink}}
-					1251
-					{{ page.permalink}}
 					<a class="{% if page.permalink == category_permalink %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
 				</li>
 			{% endfor %}
@@ -23,6 +20,7 @@
 		</ul>
 	</div>
 	{% for post in site.posts %}
+	{{ category_name}}
 	<div class="article__item">
 		<div class="article-item-thumb">
 			<img src="/images/{{ post.image_file }}" />
