@@ -1,6 +1,7 @@
 ---
-layout: articles
 title: Articles
+layout: articles
 pagination:
   enabled: true
 ---
+

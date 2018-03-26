@@ -1,9 +1,10 @@
 ---
+title: Media
+permalink: "/media/"
 layout: articles
-title: 'Media'
-permalink: /media/
 pagination:
   enabled: true
   category: media
-  permalink: /page/:num/
+  permalink: "/page/:num/"
 ---
+

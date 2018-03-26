@@ -1,9 +1,10 @@
 ---
+title: Actualites
+permalink: "/actualites/"
 layout: articles
-title: 'Actualites'
-permalink: /actualites/
 pagination:
   enabled: true
   category: actualites
-  permalink: /page/:num/
+  permalink: "/page/:num/"
 ---
+
