@@ -1,0 +1,107 @@
+@import "tools";
+@import "settings";
+@import "heading";
+
+.contact {
+  width: 540px;
+  margin: 0 auto 120px;
+  @media screen and (max-width: 1000px) {
+    width: 100%;
+    form {
+      padding: 20px;
+    }
+  }
+  &__heading {
+    @include heading;
+  }
+
+  &__subheading {
+    @include subheading;
+
+    margin-bottom: 80px;
+  }
+
+  &__field {
+    margin-bottom: 24px;
+  }
+
+  &__label {
+    display: block;
+    font-weight: 700;
+    font-size: 15px;
+
+    margin-bottom: 8px;
+  }
+
+  &__textbox {
+    width: 100%;
+    height: 55px;
+    outline: none;
+    padding: 0 20px;
+    border: 1px solid $cl-dark-gray;
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    color: $cl-black;
+  }
+
+  &__textarea {
+    width: 100%;
+    height: 220px;
+    outline: none;
+    padding: 24px 20px;
+    border: 1px solid $cl-dark-gray;
+    resize: none;
+    font-size: 18px;
+    font-family: "Gill Sans", sans-serif;
+    color: $cl-black;
+  }
+
+  &__submit {
+    width: 205px;
+    height: 55px;
+    outline: none;
+    background: $cl-pink;
+    color: $cl-white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+
+    @include transition(all, 0.45s, ease);
+
+    &:hover  {
+      background: lighten($cl-pink, 5%);
+    }
+  }
+
+  &__deco {
+    display: block;
+    height: 1em;
+    border-bottom: 1px solid $cl-gray;
+    text-align: center;
+    padding: 20px;
+    margin: 2em;
+  }
+
+  &__deco-circle-wrapper {
+    padding: 3px;
+    z-index: 100;
+    position: relative;
+    top: 7px;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+  }
+
+  &__deco-circle {
+    width: 1em;
+    height: 1em;
+    border: 1px solid $cl-gray;
+    z-index: 150;
+    display: inline-block;
+    border-radius: 100%;
+  }
+
+}
