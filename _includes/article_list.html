@@ -11,7 +11,7 @@
 
 			{% for category in site.categories %}
 				{% assign category_name = category | first %}
-				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/index.html' %}
+				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/' %}
 				<li>
 					{{ category_permalink}}
 					1251
