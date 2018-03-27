@@ -8,17 +8,15 @@
 		<h3>FILTRES :</h3>
 		<ul>
 			<li><a class="{{ ar_klass }}" href="/articles">Tous</a></li>
-
-			{% for category in site.categories %}
-				{% assign category_name = category | first %}
-				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/' %}
-				<li>
-					<a class="{% if page.category == category_name %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
-				</li>
+			{% for category in site.data.categories %}
+			{% assign category_name = category.file | slugify %}
+			<li>
+				<a class="{% if page.category == category_name %}active{% endif %}" href="/{{ category.file | slugify }}"> {{ category.name | capitalize }} </a>
+			</li>
 			{% endfor %}
-
 		</ul>
 	</div>
+	{{ site.categories | inspect}}
 	{% if page.category == "Tous" %}
 	{% assign posts = site.posts %}
 	{% else %}
@@ -31,7 +29,7 @@
 		</div>
 		<div class="article-item-text">
 			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-           	<h2>{{ post.date | date: "%-d %B %Y" | replace:"January","Janvier" | replace:"February","Février" | replace:"March","Mars" | replace:"April","Avril" | replace:"May","Mai" | replace:"June","Juin" | replace:"July","Juillet" | replace:"August","Août"| replace:"September","Septembre" | replace:"October","Octobre" | replace:"November","Novembre" | replace:"December","Décembre" }}</h2>
+						<h2>{{ post.date | date: "%-d %B %Y" | replace:"January","Janvier" | replace:"February","Février" | replace:"March","Mars" | replace:"April","Avril" | replace:"May","Mai" | replace:"June","Juin" | replace:"July","Juillet" | replace:"August","Août"| replace:"September","Septembre" | replace:"October","Octobre" | replace:"November","Novembre" | replace:"December","Décembre" }}</h2>
 			<h3>
 				PARTAGEZ
 				<a data-site="{{ site.url }}" data-url="{{ post.url }}" class='click-facebook' href="#"><span class="fa fa-facebook-square facebook"></span></a>

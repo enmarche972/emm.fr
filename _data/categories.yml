@@ -1,2 +1,6 @@
-name : Médias
-slug : media
+- name: Communiqués
+  file: communiques
+- name: Médias
+  file: medias
+- name: Actualités
+  file: actualites
