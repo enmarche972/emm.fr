@@ -1,6 +1,7 @@
 ---
 title: Médias
 permalink: "/media/"
+position: 2
 layout: articles
 category: media
 pagination:
