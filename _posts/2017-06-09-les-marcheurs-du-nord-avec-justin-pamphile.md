@@ -2,10 +2,17 @@
 title: LES « MARCHEURS » DU NORD AVEC JUSTIN PAMPHILE
 date: 2017-06-09 07:20:00 Z
 categories:
+<<<<<<< HEAD
 - communiques
 layout: post
 extra_info: Les « marcheurs » du Nord appelle à voter Justin PAMPHILE
 image_file: nord-ca-small.png
+=======
+- Communiques
+layout: post
+extra_info: Les « marcheurs » du Nord appelle à voter Justin PAMPHILE
+image_file: "/uploads/nord-ca-small.png"
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 post_type: normal
 ---
 
@@ -42,4 +49,8 @@ post_type: normal
 
 <p class='text-bold italic'>
   RDV est pris pour une prochaine rencontre 2 voir 3 semaines après les législatives. Merci à tous les marcheuses et marcheurs du Centre Atlantique de leur présence
+<<<<<<< HEAD
 </p>
+=======
+</p>
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0

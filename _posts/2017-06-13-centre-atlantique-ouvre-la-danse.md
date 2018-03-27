@@ -2,9 +2,15 @@
 title: Centre Atlantique ouvre la danse
 date: 2017-06-13 07:20:00 Z
 categories:
+<<<<<<< HEAD
 - actualites
 layout: post
 image_file: thumbnail_small_1.png
+=======
+- Actualites
+layout: post
+image_file: "/uploads/thumbnail_small_1.png"
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 post_type: normal
 lang: fr
 summary: Ce jeudi soir le centre Atlantique a organisé le premier atelier sur l'avenir

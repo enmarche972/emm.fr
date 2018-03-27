@@ -1,6 +1,10 @@
 ---
 title: Qui sommes nous ?
 date: 2018-03-26 14:16:00 Z
+<<<<<<< HEAD
+=======
+position: 6
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 layout: page
 ---
 

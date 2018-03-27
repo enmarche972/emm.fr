@@ -1,5 +1,9 @@
 source "https://rubygems.org"
 ruby '2.3.1'
+<<<<<<< HEAD
+=======
+
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:

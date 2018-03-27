@@ -5,6 +5,10 @@ collections:
   posts:
     title: Posts
     output: true
+<<<<<<< HEAD
+=======
+    Field name: file_name
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
   uploads:
     title: Uploads
     output: true

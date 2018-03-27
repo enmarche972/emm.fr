@@ -2,10 +2,17 @@
 title: En Marche ! Martinique s'organise
 date: 2017-06-11 07:20:00 Z
 categories:
+<<<<<<< HEAD
 - actualites
 layout: post
 extra_info: ENM s'orgranise en 6 comités
 image_file: article_big-2.png
+=======
+- Actualites
+layout: post
+extra_info: ENM s'orgranise en 6 comités
+image_file: "/uploads/article_big-2.png"
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 post_type: highlited
 ---
 
@@ -34,4 +41,8 @@ post_type: highlited
     <div class="right-col">
         <img src="/images/map-article-3.png">
     </div>
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0

@@ -2,9 +2,15 @@
 title: 'La République En Marche : Charlotte… première de cordée en Martinique'
 date: 2017-10-30 00:00:00 Z
 categories:
+<<<<<<< HEAD
 - media
 layout: post
 image_file: moifemmes.png
+=======
+- Media
+layout: post
+image_file: "/uploads/moifemmes.png"
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 post_type: normal
 ---
 

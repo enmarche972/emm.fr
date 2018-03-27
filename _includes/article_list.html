@@ -7,6 +7,7 @@
 		{% endif %}
 		<h3>FILTRES :</h3>
 		<ul>
+<<<<<<< HEAD
 			<li><a class="{{ ar_klass }}" href="/articles">All</a></li>
 
 			{% for category in site.categories %}
@@ -14,15 +15,33 @@
 				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/index.html' %}
 				<li>
 					<a class="{% if page.permalink == category_permalink %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
+=======
+			<li><a class="{{ ar_klass }}" href="/articles">Tous</a></li>
+
+			{% for category in site.categories %}
+				{% assign category_name = category | first %}
+				{% assign category_permalink = category_name | slugify | prepend: '/' | append: '/' %}
+				<li>
+					<a class="{% if page.category == category_name %}active{% endif %}" href="/{{ category_name | slugify }}">{{ category_name | capitalize  }} </a>
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 				</li>
 			{% endfor %}
 
 		</ul>
 	</div>
+<<<<<<< HEAD
 	{% for post in site.posts %}
+=======
+	{% if page.category == "Tous" %}
+	{% assign posts = site.posts %}
+	{% else %}
+	{% assign posts = site.categories[page.category] %}
+	{% endif %}
+	{% for post in posts %}
+>>>>>>> b81f2eb576710a37c4e0bbeea2951d0ab0f818b0
 	<div class="article__item">
 		<div class="article-item-thumb">
-			<img src="/images/{{ post.image_file }}" />
+			<img src="{{ post.image_file }}" />
 		</div>
 		<div class="article-item-text">
 			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
