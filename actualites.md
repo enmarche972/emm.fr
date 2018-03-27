@@ -1,7 +1,7 @@
 ---
 title: Actualités
 permalink: "/actualites/"
-position: 1
+position: 3
 layout: articles
 category: actualites
 pagination:
