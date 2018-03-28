@@ -1,5 +1,7 @@
 ---
 title: Communiqués
-category: communiques
+categories:
+- communiques
 layout: articles
 ---
+

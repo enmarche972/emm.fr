@@ -1,5 +1,7 @@
 ---
 title: Actualités
-category: actualites
+categories:
+- actualites
 layout: articles
 ---
+

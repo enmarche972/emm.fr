@@ -1,5 +1,7 @@
 ---
 title: Médias
-category: medias
+categories:
+- medias
 layout: articles
 ---
+
