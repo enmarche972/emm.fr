@@ -6,4 +6,6 @@ post_type: highlited
 layout: post
 ---
 
+![chris-koh-kindred1.jpg](/uploads/chris-koh-kindred1.jpg)
+
 test image
