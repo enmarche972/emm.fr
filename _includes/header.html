@@ -11,7 +11,7 @@
         <a class="header__link" href="https://en-marche.fr/le-mouvement">Le Mouvement</a>
       {% for page in site.pages %}
         {% unless page.exclude or page.url contains '.xml' %}
-            <a class="header__link" href="{{ page.permalink }}">{{ page.title }}</a>
+            <a class="header__link" href="{{ page.url }}">{{ page.title }}</a>
         {% endunless %}
       {% endfor %}
         <a class="header__link" href="#contactus" data-scroll>Nous contacter</a>
