@@ -2,7 +2,7 @@
 title: test image
 date: 2018-03-28 18:27:00 Z
 image_file: 
-post_type: normal
+post_type: highlited
 layout: post
 ---
 
