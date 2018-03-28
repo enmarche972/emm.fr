@@ -4,7 +4,46 @@ date: 2018-03-26 14:16:00 Z
 position: 6
 layout: page
 ---
+<p>En Marche Martinique ce sont des adhérents, des comités locaux, des animateurs, un comité politique et un comité directeur.</p>
 
-En Marche Martinique ce sont des adhérents, des comités locaux, des animateurs, un comité politique et un comité directeur.
+<a> <img src="C:\Users\victo\OneDrive\Documents\GitHub\en-marche-martinique.fr\_uploads" alt="Référente Charlotte Gressier"/> Charlotte Gressier, Référente <br/></a>
+<a img src="/uploads/jacky.jpg" alt="Jacky Lecourtiller, Coordinateur"> Jacky Lecourtiller, Coordinateur <br/></a>
+<a img src="/uploads/laurence.jpg" alt="Laurence Louison, Expérimentations citoyennes"> Laurence Louison, Expérimentations citoyennes <br/></a>
+<a img src="/uploads/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"> Patrick Ultet, Responsable logistique et finances <br/></a>
+<a img src="/uploads/bolo.jpeg" alt="Bolo Michelin, Responsable Numérique"> Bolo Michelin, Responsable Numérique <br/></a>
+<a img src="/uploads/lili.jpg" alt="Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux"> Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux <br/></a>
+<a img src="/uploads/olivier.png" alt="Olivier Jean-Denis, emploi, formation, jeunesse"> Olivier Jean-Denis, emploi, formation, jeunesse <br/></a>
 
-<table><tr><td><img src="/uploads/Charlotte.png" alt="Référente Charlotte GRESSIER"></td><td>Charlotte GRESSIER, Référente </td></tr><tr><td><img src="/uploads/jacky.jpg" alt="Jacky Lecourtiller, Coordinateur"></td><td>Jacky Lecourtiller, Coordinateur</td></tr><tr><td><img src="/uploads/laurence.jpg" alt="Laurence LOUISON, Expérimentations citoyennes"></td><td>Laurence LOUISON, Expérimentations citoyennes</td></tr><tr><td><img src="/uploads/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"></td><td>Patrick Ultet, Responsable logistique et finances</td></tr><tr><td><img src="/uploads/bolo.jpeg" alt="Bolo Michelin, Responsable Numérique"></td><td>Bolo Michelin, Responsable Numérique</td></tr><tr><td><img src="/uploads/lili.jpg" alt="Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux"></td><td>Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux</td></tr><tr><td><img src="/uploads/olivier.png" alt="Olivier Jean-Denis, emploi, formation, jeunesse"></td><td>Olivier Jean-Denis, emploi, formation, jeunesse</td></tr></table>
+
+
+
+<!-- <table>
+  <tr>
+    <td> <img src="/uploads/Charlotte.png" alt="Référente Charlotte GRESSIER"></td>
+    <td>Charlotte GRESSIER, Référente </td>
+  </tr>
+  <tr>
+    <td><img src="/uploads/jacky.jpg" alt="Jacky Lecourtiller, Coordinateur"></td>
+    <td>Jacky Lecourtiller, Coordinateur</td>
+  </tr>
+  <tr>
+    <td><img src="/uploads/laurence.jpg" alt="Laurence LOUISON, Expérimentations citoyennes"></td>
+    <td>Laurence LOUISON, Expérimentations citoyennes</td>
+  </tr>
+  <tr>
+    <td><img src="/uploads/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"></td>
+    <td>Patrick Ultet, Responsable logistique et finances</td>
+  </tr>
+  <tr>
+    <td><img src="/uploads/bolo.jpeg" alt="Bolo Michelin, Responsable Numérique"></td>
+    <td>Bolo Michelin, Responsable Numérique</td>
+  </tr>
+  <tr>
+    <td><img src="/uploads/lili.jpg" alt="Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux"></td>
+    <td>Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux</td>
+  </tr>
+  <tr>
+    <td><img src="/uploads/olivier.png" alt="Olivier Jean-Denis, emploi, formation, jeunesse"></td>
+    <td>Olivier Jean-Denis, emploi, formation, jeunesse</td>
+  </tr>
+</table> -->
