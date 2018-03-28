@@ -6,13 +6,22 @@ layout: page
 ---
 <p>En Marche Martinique ce sont des adhérents, des comités locaux, des animateurs, un comité politique et un comité directeur.</p>
 
-<a> <img src="C:\Users\victo\OneDrive\Documents\GitHub\en-marche-martinique.fr\_uploads" alt="Référente Charlotte Gressier"/> Charlotte Gressier, Référente <br/></a>
-<a img src="/uploads/jacky.jpg" alt="Jacky Lecourtiller, Coordinateur"> Jacky Lecourtiller, Coordinateur <br/></a>
-<a img src="/uploads/laurence.jpg" alt="Laurence Louison, Expérimentations citoyennes"> Laurence Louison, Expérimentations citoyennes <br/></a>
-<a img src="/uploads/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"> Patrick Ultet, Responsable logistique et finances <br/></a>
-<a img src="/uploads/bolo.jpeg" alt="Bolo Michelin, Responsable Numérique"> Bolo Michelin, Responsable Numérique <br/></a>
-<a img src="/uploads/lili.jpg" alt="Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux"> Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux <br/></a>
-<a img src="/uploads/olivier.png" alt="Olivier Jean-Denis, emploi, formation, jeunesse"> Olivier Jean-Denis, emploi, formation, jeunesse <br/></a>
+<p> <img src="/uploads/trombi/Charlotte.png" alt="Référente Charlotte Gressier"/><br/> Charlotte Gressier, Référente <br/></p>
+<p> <img src="/uploads/trombi/jacky.jpg" alt="Jacky Lecourtiller, Coordinateur"/><br/> Jacky Lecourtiller, Coordinateur <br/></p>
+<p> <img src="/uploads/trombi/laurence.jpg" alt="Laurence Louison, Expérimentations citoyennes"/><br/> Laurence Louison, Expérimentations citoyennes <br/></p>
+<p> <img src="/uploads/trombi/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"/><br/> Patrick Ultet, Responsable logistique et finances <br/></p>
+<p> <img src="/uploads/trombi/bolo.jpeg" alt="Bolo Michelin, Responsable Numérique"/><br/> Bolo Michelin, Responsable Numérique <br/></p>
+<p> <img src="/uploads/trombi/lili.jpg" alt="Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux"/><br/> Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux <br/></p>
+<p> <img src="/uploads/trombi/olivier.png" alt="Olivier Jean-Denis, emploi, formation, jeunesse"/><br/> Olivier Jean-Denis, emploi, formation, jeunesse <br/></p>
+
+
+<style>
+  p
+  {
+    text-align : center;
+    img-align: center;
+  }
+</style>
 
 
 
