@@ -16,7 +16,7 @@
 			{% endfor %}
 		</ul>
 	</div>
-	{% if page.category == "Tous" %}
+	{% if page.url contains "articles" %}
 	{% assign posts = site.posts %}
 	{% else %}
 	{% assign posts = site.categories[page.category] %}
