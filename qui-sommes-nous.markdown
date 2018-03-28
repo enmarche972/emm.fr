@@ -4,6 +4,7 @@ date: 2018-03-26 14:16:00 Z
 position: 6
 layout: page
 ---
+
 <p>En Marche Martinique ce sont des adhérents, des comités locaux, des animateurs, un comité politique et un comité directeur.</p>
 
 <p> <img src="/uploads/trombi/Charlotte.png" alt="Référente Charlotte Gressier"/><br/> Charlotte Gressier, Référente <br/></p>
