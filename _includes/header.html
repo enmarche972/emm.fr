@@ -7,13 +7,15 @@
     <a href="/" title="Home Page" id="logo" class="header__logo">
       <img src="/images/logo.svg" alt="En Marche Martinique" />
     </a>
-
-    <nav class="header__nav">
+      <nav class="header__nav">
         <a class="header__link" href="https://en-marche.fr/le-mouvement">Le Mouvement</a>
-        <a class="header__link" href="/articles">Actualités</a>
-        <a class="header__link" href="/qui-sommes-nous">Qui sommes nous?</a>
+      {% for page in site.pages %}
+        {% unless page.exclude or page.url contains '.xml' %}
+            <a class="header__link" href="{{ page.permalink }}">{{ page.title }}</a>
+        {% endunless %}
+      {% endfor %}
         <a class="header__link" href="#contactus" data-scroll>Nous contacter</a>
-    </nav>
+      </nav>
 
     <div class="header__socials">
         <a class="header__social header__social--facebook" href="https://facebook.com/enmarche972" target="_blank">

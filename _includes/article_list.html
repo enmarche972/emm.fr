@@ -11,12 +11,11 @@
 			{% for category in site.data.categories %}
 			{% assign category_name = category.file | slugify %}
 			<li>
-				<a class="{% if page.category == category_name %}active{% endif %}" href="/{{ category.file | slugify }}"> {{ category.name | capitalize }} </a>
+				<a class="{% if page.category == category_name %}active{% endif %}" href="/category/{{ category.file | slugify }}"> {{ category.name | capitalize }} </a>
 			</li>
 			{% endfor %}
 		</ul>
 	</div>
-	{{ site.categories | inspect}}
 	{% if page.category == "Tous" %}
 	{% assign posts = site.posts %}
 	{% else %}
