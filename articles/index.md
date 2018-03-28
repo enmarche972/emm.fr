@@ -2,8 +2,9 @@
 title: Articles
 position: 3
 layout: articles
-exclude : true
+exclude: true
 category: Tous
 pagination:
   enabled: true
 ---
+
