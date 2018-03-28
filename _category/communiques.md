@@ -2,6 +2,7 @@
 title: Communiqués
 categories:
 - communiques
-layout: articles
 category: communiques
+layout: articles
 ---
+
