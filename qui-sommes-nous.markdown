@@ -42,7 +42,8 @@ layout: page
 <style>
   table
   {
-    width : 50%;
+    width : 100%;
+    min-width : 320px;
     border : 5 px blue ridge ;
     text-align : center;
   }
