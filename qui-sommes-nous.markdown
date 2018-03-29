@@ -61,13 +61,12 @@ layout: page
   @media screen and (max-width: 500px) {
     table {
       width: 40%;
-      margin-left :3s0px;
+      margin-left :30px;
     }
   }
 </style>
 
 <!-- <table>
-<<<<<<< HEAD
   <tr>
     <td> <img src="/uploads/Charlotte.png" alt="Référente Charlotte GRESSIER"></td>
     <td>Charlotte GRESSIER, Référente </td>
@@ -97,34 +96,3 @@ layout: page
     <td>Olivier Jean-Denis, emploi, formation, jeunesse</td>
   </tr>
 </table> -->
-=======
-<tr>
-<td> <img src="/uploads/Charlotte.png" alt="Référente Charlotte GRESSIER"></td>
-<td>Charlotte GRESSIER, Référente </td>
-</tr>
-<tr>
-<td><img src="/uploads/jacky.jpg" alt="Jacky Lecourtiller, Coordinateur"></td>
-<td>Jacky Lecourtiller, Coordinateur</td>
-</tr>
-<tr>
-<td><img src="/uploads/laurence.jpg" alt="Laurence LOUISON, Expérimentations citoyennes"></td>
-<td>Laurence LOUISON, Expérimentations citoyennes</td>
-</tr>
-<tr>
-<td><img src="/uploads/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"></td>
-<td>Patrick Ultet, Responsable logistique et finances</td>
-</tr>
-<tr>
-<td><img src="/uploads/bolo.jpeg" alt="Bolo Michelin, Responsable Numérique"></td>
-<td>Bolo Michelin, Responsable Numérique</td>
-</tr>
-<tr>
-<td><img src="/uploads/lili.jpg" alt="Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux"></td>
-<td>Lydia Beaulieu, co-responsable numérique en charge du site web et des réseaux sociaux</td>
-</tr>
-<tr>
-<td><img src="/uploads/olivier.png" alt="Olivier Jean-Denis, emploi, formation, jeunesse"></td>
-<td>Olivier Jean-Denis, emploi, formation, jeunesse</td>
-</tr>
-</table> -->
->>>>>>> ec1e47853233ad5b4e72bffde63584a4cbf013a9
