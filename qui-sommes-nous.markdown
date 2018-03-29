@@ -49,4 +49,8 @@ table
 text-align : center;
 margin : auto;
 }
+td
+{
+  padding : 10px 0px;
+}
 </style>
