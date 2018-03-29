@@ -4,7 +4,7 @@ date: 2017-10-30 00:00:00 Z
 categories:
 - medias
 image_file: "/uploads/nouveau-visage-emm.jpeg"
-post_type: normal
+post_type: highlited
 layout: post
 ---
 
