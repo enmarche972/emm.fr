@@ -3,6 +3,10 @@ title: Qui sommes nous ?
 layout: page
 ---
 
+<<<<<<< HEAD
+=======
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+>>>>>>> a6141268fd49aeb01d23f130fa27ccfc411f1cba
 <table>
 
   <tr>
