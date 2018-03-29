@@ -36,9 +36,10 @@ layout: page
 </tr>
 
 </table>
+
+<!--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
 <style>
-@import "/scss/settings";
-@import "/scss/tools=";
 img
 {
 max-width: 100%;
@@ -46,21 +47,6 @@ max-width: 100%;
 table
 {
 text-align : center;
-}
-td
-{
-background-color: aqua;
-}
-@media screen and (max-width: 650px) {
-table {
-width: 60%;
-margin: auto;
-}
-}
-@media screen and (max-width: 500px) {
-table {
-width: 40%;
-margin-left :30px;
-}
+margin : auto;
 }
 </style>
