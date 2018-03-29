@@ -4,7 +4,6 @@ date: 2018-03-26 14:16:00 Z
 position: 6
 layout: page
 ---
-
 <table>
 
   <tr>
@@ -39,7 +38,6 @@ layout: page
   </tr>
 
 </table>
-
 <style>
   tr
   {
@@ -50,12 +48,14 @@ layout: page
   {
     width : 100%;
     text-align : center ;
-    margin : 50 px;
+    border : 500 px solid-black ;
+  }
+  table
+  {
+    width : 100%;
+    border : 500 px solid-black ;
   }
 </style>
-
-
-
 
 <!-- <table>
   <tr>
