@@ -3,7 +3,7 @@ title: Qui sommes nous ?
 layout: page
 ---
 
-<table>
+<!--<table>
 
   <tr>
     <td>En Marche Martinique ce sont des adhérents, des comités locaux, des animateurs, un comité politique et un comité directeur. </td>
@@ -64,7 +64,7 @@ layout: page
       margin-left :30px;
     }
   }
-</style>
+</style>-->
 
 <!-- <table>
   <tr>
