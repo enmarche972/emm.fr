@@ -22,7 +22,7 @@ layout: page
 
   <tr>
     <td> <img src="/uploads/trombi/laurence.jpg" alt="Laurence Louison, Expérimentations citoyennes"/><br/> Laurence Louison, Expérimentations citoyennes </td>
-  </tr>
+  </tr> 
 
   <tr>
     <td> <img src="/uploads/trombi/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"/><br/> Patrick Ultet, Responsable logistique et finances </td>
