@@ -1,10 +1,8 @@
 ---
 title: Qui sommes nous ?
-date: 2018-03-26 14:16:00 Z
-position: 6
 layout: page
 ---
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <table>
 
   <tr>
@@ -50,7 +48,12 @@ layout: page
   }
   td
   {
-    background-color: blue;
+    background-color: aqua;
+  }
+  @media screen and (max-width: 320px) {
+    td {
+      width: 40%;
+    }
   }
 </style>
 
