@@ -44,8 +44,13 @@ layout: page
   tr
   {
     text-align: center ;
-    width: 60 % ;
-    margin : 100px ;
+    width: 100 % ;
+  }
+  td
+  {
+    width : 100%;
+    text-align : center ;
+    margin : 50 px;
   }
 </style>
 
