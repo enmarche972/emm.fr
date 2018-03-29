@@ -6,6 +6,7 @@ function showRecaptcha(element) {
 }
 
 function setupRecaptcha() {
+  console.log("test")
   var contactFormHost = 'captcha-en-marche-martinique.herokuapp.com',
       form = $('#contact-form'),
       notice = form.find('#notice');
