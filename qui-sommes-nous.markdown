@@ -45,7 +45,6 @@ layout: page
     width : 50%;
     border : 5 px blue ridge ;
     text-align : center;
-    margin : auto;
   }
   td
   {
