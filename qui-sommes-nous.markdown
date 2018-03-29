@@ -39,21 +39,15 @@ layout: page
 
 </table>
 <style>
-  tr
+  table
   {
-    text-align: center ;
-    width: 100 % ;
+    width : 50%;
+    border : 5 px blue ridge ;
+    text-align : center;
   }
   td
   {
-    width : 100%;
-    text-align : center ;
-    border : 500 px solid-black ;
-  }
-  table
-  {
-    width : 100%;
-    border : 500 px solid-black ;
+    background-color: blue;
   }
 </style>
 
