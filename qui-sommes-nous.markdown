@@ -43,7 +43,8 @@ layout: page
   tr
   {
     text-align: center ;
-    width: 100 % ;
+    width: 60 % ;
+    margin : 100px ;
   }
 </style>
 
