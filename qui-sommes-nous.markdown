@@ -3,10 +3,6 @@ title: Qui sommes nous ?
 layout: page
 ---
 
-<<<<<<< HEAD
-=======
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
->>>>>>> a6141268fd49aeb01d23f130fa27ccfc411f1cba
 <table>
 
   <tr>
@@ -22,7 +18,7 @@ layout: page
 
   <tr>
     <td> <img src="/uploads/trombi/laurence.jpg" alt="Laurence Louison, Expérimentations citoyennes"/><br/> Laurence Louison, Expérimentations citoyennes </td>
-  </tr> 
+  </tr>
 
   <tr>
     <td> <img src="/uploads/trombi/patrick.jpg" alt="Patrick Ultet, responsable logistique et finances"/><br/> Patrick Ultet, Responsable logistique et finances </td>
