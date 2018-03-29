@@ -9,19 +9,37 @@
 
     <div class="contact__subheading">Pour toutes questions écrivez-nous. Nous vous répondrons le plus rapidement.</div>
 
-    <form action="https://formspree.io/e.marcher972@gmail.com"
-            method="POST">
-                        <div class="contact__field">
-            <label class="contact__label" for="email">Votre adresse e-mail</label>
-            <input class="contact__textbox" id="email" name="email" type="text" placeholder="jondoe@gmail.com">
-        </div>
+<form id="contact-form" class="contact-form" method="post" data-success="Votre message à bien été envoyé !">
 
-        <div class="contact__field">
-            <label class="contact__label" for="message">Votre message</label>
-            <textarea class="contact__textarea" id="message" name="message"
-                        placeholder="Votre message ici"></textarea>
-        </div>
+<div class="contact__field">
+  <label class="contact__label" for="email">Votre adresse e-mail</label>
+  <input id="email" type="text" name="email" class="contact__textbox" placeholder="votreadresse@gmail.com" required /><br/>
+</div>
 
-        <input class="contact__submit" type="submit" value="Envoyer">
-    </form>
+<div class="contact__field">
+  <label class="contact__label" for="message"> <b>Votre message</b></label>
+  <textarea id="message" name="message" class="contact__textarea" placeholder="Votre message ici" required ></textarea><br/>
+</div>
+
+  <label for="recaptcha_response_field">reCAPTCHA</label>
+  <div id="recaptcha_widget" class="recaptcha">
+    <div class="image">
+      <div id="recaptcha_image"></div>
+    </div>
+    <div class="g-recaptcha" data-sitekey="6LcQx08UAAAAAMaW-raszPrJB9KvEWMQvbjRyHCj"></div>
+
+<!--    <div class="headline recaptcha_only_if_image">Entrez les mots ci-dessus:</div>
+    <div class="headline recaptcha_only_if_audio">Entrez les chiffres que vous entendez:</div>-->
+
+    <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" required />
+
+    <span class="recaptcha_icon"><a href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a></span>
+    <span class="recaptcha_icon recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><i class="fa fa-volume-up"></i></a></span>
+    <span class="recaptcha_icon recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><i class="fa fa-font"></i></a></span>
+    <span class="recaptcha_icon"><a href="javascript:Recaptcha.showhelp()"><i class="fa fa-question-circle"></i></a></span>
+  </div><br/>
+  <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="Impossible d'envoyer votre message, veuillez réessayer"></div>
+  <input class="contact__submit" type="submit" value="Envoyer"/>
+</form>
 </section>
+<div class="g-recaptcha" data-sitekey="6LcQx08UAAAAAMaW-raszPrJB9KvEWMQvbjRyHCj"></div>
