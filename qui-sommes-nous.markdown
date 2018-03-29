@@ -96,9 +96,3 @@ margin-left :30px;
 <td>Olivier Jean-Denis, emploi, formation, jeunesse</td>
 </tr>
 </table> -->
-
-En Marche Martinique ce sont des adhérents, des comités locaux, des animateurs, un comité politique et un comité directeur.
-
-![Charlotte.png](/uploads/trombi/Charlotte.png)
-
-Charlotte Gressier, Référente
