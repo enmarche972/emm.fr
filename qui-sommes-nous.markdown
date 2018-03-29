@@ -4,7 +4,7 @@ date: 2018-03-26 14:16:00 Z
 position: 6
 layout: page
 ---
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <table>
 
   <tr>
@@ -40,11 +40,12 @@ layout: page
 
 </table>
 <style>
+  img
+  {
+    max-width: 100%;
+  }
   table
   {
-    width : 100%;
-    min-width : 320px;
-    border : 5 px blue ridge ;
     text-align : center;
   }
   td
