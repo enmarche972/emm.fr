@@ -1,6 +1,8 @@
 ---
 title: Marche des mornes - Saint-Joseph
 date: 2018-04-13 16:21:00 Z
+image_file: "/uploads/c25f47cc-66ff-4334-99b7-a72dd9b601d7.JPG"
+post_type: highlited
 ---
 
 Le 7 avril 2018 le comité de Saint-Joseph organisait, dans le cadre de la marche des mornes, son premier événement.
