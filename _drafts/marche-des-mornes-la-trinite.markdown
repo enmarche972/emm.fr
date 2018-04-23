@@ -1,6 +1,8 @@
 ---
 title: Marche des Mornes - La trinité
 date: 2018-04-21 15:01:00 Z
+image_file: "/uploads/trinite.png"
+post_type: normal
 ---
 
 **Etape à La Trinité le samedi 21 avril 2018**
