@@ -5,9 +5,9 @@ date: 2018-04-21 15:01:00 Z
 
 **Etape à La Trinité le samedi 21 avril 2018**
 
-La visite du marché nous permit de nouer de nombreux contacts avec la population Trinitéenne.
+La visite du marché nous permit de nouer de nombreux contacts avec la population Trinitéenne.![WhatsApp Image 2018-04-21 at 09.12.02.jpeg](/uploads/WhatsApp%20Image%202018-04-21%20at%2009.12.02.jpeg)
 L’accueil fut positif, jamais hostile, suscitant parfois curiosité, rarement indifférence, et souvent un vif intérêt.
-Plusieurs marchandes nous firent part de leur souhait de voir mettre en place un label « sans Chlordécone » destiné à rassurer les consommateurs.
+Plusieurs marchandes nous firent part de leur souhait de voir mettre en place un label « sans Chlordécone » destiné à rassurer les consommateurs.![WhatsApp Image 2018-04-21 at 09.58.23.jpeg](/uploads/WhatsApp%20Image%202018-04-21%20at%2009.58.23.jpeg)
 Plus généralement, de nombreuses personnes furent surprises et séduites par cette démarche peu commune « d’écoute » de leurs préoccupations quotidiennes à laquelle bien peu de politiques les avaient jusque-là habitués.
 
 La suite de la matinée fut placée sous le signe de l’éco-tourisme, de la nature, et du développement économique.
