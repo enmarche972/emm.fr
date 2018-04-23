@@ -1,7 +1,7 @@
 ---
 title: Marche des mornes - Saint-Joseph
 date: 2018-04-13 16:21:00 Z
-image_file: "/uploads/c25f47cc-66ff-4334-99b7-a72dd9b601d7.JPG"
+image_file: "/uploads/marche_morne_trinite.png"
 post_type: highlited
 ---
 
