@@ -1,7 +1,7 @@
 ---
 title: On l'a dit, On le fait
 date: 2018-05-09 10:43:00 Z
-post_type: highlited
+post_type: normal
 image_file: "/uploads/Capture%20d%E2%80%99%C3%A9cran%202018-05-09%20%C3%A0%2006.46.39.png"
 ---
 
