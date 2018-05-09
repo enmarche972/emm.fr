@@ -29,7 +29,7 @@ Nous nous devons aussi de vous sensibiliser sur la Grande Marche de l’Europe q
 
 
 Vous pouvez encore vous inscrire pour recevoir la Newsletter de la GME :
-https://en-marche.us16.list-manage.com/subscribe/post…
+https://en-marche.us16.list-manage.com/subscribe/post?u=55827081e9c72c969a6fa0ea5&id=1b1d13be5b
 
 
 Enfin, nous développons notre structure en fédérant les forces vives de tout horizon, simples volontés d’un monde meilleur ou porteurs de projets pour notre île, sur toutes les communes.
