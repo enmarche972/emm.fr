@@ -4,24 +4,36 @@ date: 2018-05-18 11:25:00 Z
 ---
 
 **EN MARCHE MARTINIQUE – COMITE SAINT-PIERRE 
-Compte-rendu de la Marche du 12 Mai 2018 (11 participants) **
+Compte-rendu de la Marche du 12 Mai 2018 (11 participants)**
  
-12 Participants En Marche: 
+12 Participants En Marche:
 
-- Charlotte GRESSIER (Référente départemental)
-- Jacky  (Coordinateur départemental)
-- Patrick ULTET (Saint-Pierre en Marche) 
-- Régine SAINTE-CROIX (Saint-Pierre en Marche) 
-- Bolo MICHELIN (Schoelcher)
-- Guy FERDINAND (Carbet) 
-- Emilie (Vauclin) 
-- Kaltoum (Lamentin) 
-- Lydie (Saint-Joseph) 
-- Laurence (Saint-Joseph) 
-- Gilbert (Trinité) 
-- Frantz (Carbet)
+* Charlotte GRESSIER (Référente départemental)
 
-1. **Rencontre avec des restaurateurs du Nord Caraïbe (Restaurant : le Moulin à Cannes – Depaz) **
+* Jacky  (Coordinateur départemental)
+
+* Patrick ULTET (Saint-Pierre en Marche)
+
+* Régine SAINTE-CROIX (Saint-Pierre en Marche)
+
+* Bolo MICHELIN (Schoelcher)
+
+* Guy FERDINAND (Carbet)
+
+* Emilie (Vauclin)
+
+* Kaltoum (Lamentin)
+
+* Lydie (Saint-Joseph)
+
+* Laurence (Saint-Joseph)
+
+* Gilbert (Trinité)
+
+* Frantz (Carbet)
+
+1. **Rencontre avec des restaurateurs du Nord Caraïbe (Restaurant : le Moulin à Cannes – Depaz)**
+
    Restaurateurs Participants : Gilles MALIDOR (« Le Moulin à Cannes », Saint-Pierre), Mme MALIDOR (« La Chaudière », Morne Rouge), Guy FERDINAND (« Le Petibonum », Carbet). 
    N.B : M. LIMIER, producteur de christophines devait participer, mais a  dû annuler. Il souhaite toujours rencontrer LREMM lors des marches qui seront organisées au Carbet ou à Morne Rouge. 
     
